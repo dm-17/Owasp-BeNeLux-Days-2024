@@ -1,0 +1,86 @@
+# 17/05/2024
+# TO be actualised
+
+# - image    : logo.png
+#   name     : Company name
+#   url      : hxxps://foo.com
+#   level    : Gold
+#   style    :
+
+# - image    : logo.svg
+#   name     : OWASP
+#   url      : https://www.owasp.org
+#   level    : Gold
+#   style    :
+
+#  - image    : offensive-360-logo.svg
+#    name     : Offensive 360
+#    url      : https://offensive360.com/
+#    level    : Bronze
+#    style    :
+
+#  - image    : secureflag.svg
+#    name     : SecureFlag
+#    url      : https://www.secureflag.com
+#    level    : Gold
+#    style    :
+
+#  - image    : armorcode_black.svg
+#    name     : ArmorCode
+#    url      : https://www.armorcode.com
+#    level    : Gold
+#    style    :
+
+#  - image    : zimperium.png
+#    name     : ZIMPERIUM
+#    url      : https://www.zimperium.com/
+#    level    : Gold
+#    style    :
+
+#  - image    : cegeka.svg
+#    name     : Cegeka
+#    url      : https://www.cegeka.com
+#    level    : Gold
+#    style    :
+
+#  - image    : cegeka.svg
+#    name     : Cegeka
+#    url      : https://www.cegeka.com
+#    level    : Social event
+#    style    :
+
+#  - image    : snyk.jpg
+#    name     : Snyk
+#    url      : https://snyk.io
+#    level    : Gold
+#    style    : width:150px;
+
+#  - image    : contrast-security.png
+#    name     : Contrast Security
+#    url      : https://www.contrastsecurity.com
+#    level    : Gold
+#    style    : 
+
+#  - image    : fortify-opentext.png
+#    name     : Fortify
+#    url      : https://www.microfocus.com/en-us/cyberres/application-security
+#    level    : Silver
+#    style    : 
+
+#  - image    : veracode.png
+#    name     : Veracode
+#    url      : https://www.veracode.com/
+#    level    : Gold
+#    style    : 
+
+#  - image    : synopsys.jpg
+#    name     : Synopsys
+#    url      : https://www.synopsys.com/
+#    level    : Gold
+#    style    : 
+
+#  - image    : resillion.jpg
+#    name     : Resillion
+#    url      : https://www.resillion.com/
+#    level    : Silver
+#    style    : 

@@ -1,0 +1,54 @@
+---
+title: OWASP BeNeLux Days 2024
+layout: front
+bodyclass: front
+---
+<section class="punch">
+
+<br><br>
+<h2>Save the date: we will host the OWASP BeNeLux Days 2024 edition on 28th and 29th of November in the Netherlands!</h2>
+<br>
+<br>
+
+{% if site.data.conference[0].title %}
+<h2>Conference program on 28/11/2024</h2>
+	{% assign speakers = site.data.conference | sort: 'time' %}
+	{% for speaker in speakers %}
+	{% if speaker.display %}
+	  <ul>
+		<li><a href="/program/conference#{{speaker.name | replace: " ","-"}}">{{speaker.title}}</a> by {{speaker.name}}</li>
+	  </ul>
+	{% endif %}
+	{% endfor %}
+
+{% endif %}
+<br>
+{% if site.data.training[0].name %}
+<h2>Trainings on 29/11/2024</h2>
+	{% assign trainings = site.data.training | sort: 'time' %}
+	{% for training in trainings %}
+	{% if training.display %}
+	  <ul>
+		<li><a href="/program/training#{{training.name | replace: " ","-"}}">{{training.title}}</a> by {{training.name}}{% if training.name2 %} and {{training.name2}}{% endif %}</li>
+	  </ul>
+	{% endif %}
+	{% endfor %}
+	</table>
+{% endif %}
+<br>
+
+
+<h2>OWASP BeNeLux conference is free, but registration is required!</h2>
+<p>To support the OWASP organisation, consider to become a member, it's only <strong>US$50!</strong> Check out the <a href="https://wiki.owasp.org/index.php/Membership">Membership</a> page to find out more.</p>
+<br>
+<h2>What Happens at a OWASP BeNeLux Days Conference?</h2>
+<p>Never been to an OWASP BeNeLux Days Conference? <br>Here’s a bit of info to provide some background.</p>
+<i><ul>
+	<li>Technical talks by experts in security, devops, and cloud</li>
+	<li>Training sessions for hands on learning in top security areas</li>
+	<li>Keynotes from industry leaders</li>
+	<li>Vendor booths to promote the latest advances in security technology</li>
+	<li>A variety of other activities such as capture the flag, security tool training, and more</li>
+</ul></i>
+<br>
+</section>

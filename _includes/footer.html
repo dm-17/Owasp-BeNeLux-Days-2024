@@ -1,0 +1,54 @@
+<footer>
+  <div class="strike">
+    <span>Sponsors</span>
+  </div>
+
+  {% assign goldSponsors = site.data.sponsors | where:"level","Gold" | sort: 'name' %}
+  {% assign silverSponsors = site.data.sponsors | where:"level","Silver" | sort: 'name' %}
+  {% assign bronzeSponsors = site.data.sponsors | where:"level","Bronze" | sort: 'name' %}
+  {% assign socialEventSponsors = site.data.sponsors | where:"level","Social event" | sort: 'name' %}
+
+ 
+  {% if goldSponsors.size > 0 %}
+    <h2>Gold sponsors</h2>
+    {% for sponsor in goldSponsors %}
+      <div class="sponsor" style="{{ sponsor.style }}">
+      	<a href="{{ sponsor.url }}" target="_blank"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if silverSponsors.size > 0 %}
+    <h2>Silver sponsors</h2>
+    {% for sponsor in silverSponsors %}
+      <div class="sponsor" style="{{ sponsor.style }}">  
+      	<a href="{{ sponsor.url }}" target="_blank"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if bronzeSponsors.size > 0 %}
+    <h2>Bronze sponsors</h2>
+    {% for sponsor in bronzeSponsors %}
+      <div class="sponsor" style="{{ sponsor.style }}">
+      	<a href="{{ sponsor.url }}" target="_blank"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if socialEventSponsors.size > 0 %}
+    <h2>Social Event sponsor</h2>
+    {% for sponsor in socialEventSponsors %}
+      <div class="sponsor" style="{{ sponsor.style }}">
+      	<a href="{{ sponsor.url }}" target="_blank"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  <div class="strike">
+    <span>Sponsors</span>
+  </div>
+  <div>&copy; OWASP Foundation 2024</div>
+</footer>
+</body>
+</html>

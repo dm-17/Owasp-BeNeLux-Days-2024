@@ -1,0 +1,171 @@
+# 17/05/2024
+
+# - image   : image.jpg
+#   day     : 25/11/2023
+#   time    : 09:00 - 17:00
+#   name    : Trainer
+#   bio     : >-
+#             Biography
+#   title   : Training title
+#   abstract: >-
+#             Training description
+#   feed    :
+#   url     :
+#   urltag  :
+#   display : yes
+
+ - image   : bjoern.jpg
+   day     : 24/11/2023
+   time    : 09:00 - 17:00
+   name    : Björn Kimminich
+   bio     : >-
+             Björn works as Product Group Lead Application Ecosystem at 
+             Kuehne+Nagel, responsible – among other things – for the 
+             Application Security program in the corporate IT. He is an 
+             OWASP Lifetime Member, the project leader of the OWASP Juice 
+             Shop, and a co-chapter leader for the OWASP Germany Chapter. 
+             Björn also currently chairs the OWASP Project Committee.
+   title   : Juice Shop Training&#58; Train the Trainer Edition
+   abstract: >-
+             In this training we will learn how to fully use the OWASP Juice 
+             Shop in our own training courses, lectures or awareness sessions:<br />
+             <br />
+             * Intro: In this short module, we'll get to know the OWASP Juice Shop 
+               and try out some hacking and coding challenges.<br />
+             * Mob hacking: Here we get to know some challenges that are particularly 
+               (un)suitable for hacking in the plenum.<br />
+             * Theming: This module is all about customizing the Juice Shop to 
+               transform it into the look and feel of your company and customers.<br />
+             * CTF: In this module we will use Juice Shop and CTFd tools to set up a 
+               Capture-the-Flag event in very short time with all Juice Shop hacking 
+               challenges<br />
+             * Integration: Finally, let's look at ways to integrate with learning 
+               platforms, dashboards, etc., as well as the Juice Shop's anti-cheat 
+               features.<br />
+             <br />
+             All modules are as little slides as possible and instead rich in practical 
+             exercises and examples!<br />
+             <br />
+             Requirements:<br />
+             * Laptop with a recent version of Docker Desktop and Node.js/NPM installed
+   feed    :
+   url     :
+   urltag  :
+   display : yes
+
+ - image   : georges.jpg
+   day     : 24/11/2023
+   time    : 09:00 - 17:00
+   name    : Georges Bolssens
+   bio     : >-
+             Georges Bolssens embarked on his coding journey in the early 1990s and 
+             delved into the realm of application security in 2017. With an inherent 
+             passion for teaching, Georges is not only a seasoned developer but also an 
+             adept communicator. His unique talent lies in simplifying intricate 
+             subjects through relatable analogies, making him an engaging and effective 
+             speaker.
+             <br />
+             Having undertaken numerous consulting assignments, Georges has assumed the 
+             role of a cybersecurity educator for a diverse spectrum of professionals. 
+             His guidance has illuminated the path for individuals ranging from legal 
+             experts at renowned "Big 4" consulting firms to ethical hackers and all 
+             those in between.
+             <br />
+             In his capacity as an Application Security Consultant at Toreon, Georges 
+             has been instrumental in assisting numerous clients in constructing 
+             comprehensive threat models for their digital assets.
+   title   : Hands-on threat modeling workshop
+   abstract: >-
+             This training is a condensed version of the two-day training that Toreon 
+             has been teaching at security conferences like BlackHat USA for several 
+             years. It aims to introduce the fundamentals of threat modeling using the 
+             DICE-framework (a.k.a. the "Four Question Framework") for threat modeling 
+             a ficticious hotel booking application.<br />
+             <br />
+             This course is an entry-level introduction to threat modeling aimed at 
+             anyone responsible for ensuring a product's security, be it software or 
+             hardware, regardless of their prior expertise in security. We advocate 
+             that threat modeling isn't just for the "happy few" but is essential 
+             knowledge for all involved in the software development lifecycle. Typical 
+             attendees of this course range from software developers, engineers, and 
+             architects to product managers focused on security, incident responders, 
+             and cybersecurity analysts or managers.<br />
+             <br />
+             Requirements:<br />
+             * A laptop with a browser is required for downloading the exercise PDFs 
+             and taking notes. No software is required.
+   feed    :
+   url     :
+   urltag  :
+   display : yes
+
+ - image   : jeroen_center.png
+   day     : 24/11/2023
+   time    : 09:00 - 17:00
+   name    : Jeroen Beckers
+   bio     : >-
+             I am the mobile solution lead at NVISO, where I am responsible for quality 
+             delivery, innovation and methodology for all mobile assessments. I am 
+             actively involved in the mobile security community, and I try to share my 
+             knowledge through open-source tools, blogposts, trainings and presentations. 
+             I am the lead author and instructor of the SANS 575 course&#58; Mobile device 
+             security and ethical hacking and a co-author of the OWASP Mobile Application 
+             Security Testing Guide (MSTG) and OWASP Mobile Application Security 
+             Verification Standard (MASVS).
+   title   : The Hitchhacker's guide to the mobile galaxy
+   abstract: >-
+             The mobile galaxy is dominated by two solar systems:&#58; Android and iOS. 
+             Grab your towel and embark on a journey through the intricacies of mobile 
+             operating systems. Uncover the secrets and vulnerabilities of mobile app 
+             planets through static analysis. Ignite the infinite improbability drive 
+             and delve deeper with dynamic analysis to gain the skills and knowledge 
+             to outwit the Vogons.
+             <br />
+             In this training, not only the Ultimate Question of Life, the Universe, 
+             and Everything will be answered but also most of your questions regarding 
+             mobile security. Join us on this galactic adventure of exploring the OWASP 
+             MASVS and MASTG!<br />
+             <br />
+             Requirements:<br />
+             * A Linux VM with Java runtime installed
+   feed    :
+   url     :
+   urltag  :
+   display : yes
+
+ - image   : nanne.png
+   day     : 24/11/2023
+   time    : 09:00 - 17:00
+   name    : Nanne Baars
+   bio     : >-
+             Nanne is a security software developer with a focus on Java development 
+             and one of the project leads for the OWASP WebGoat project.
+   title   : Teaching application security 101 with WebGoat
+   abstract: >-
+             A good defense against insecure code requires understanding the mechanics 
+             behind how attackers exploit simple programming mistakes. The WebGoat team 
+             will walk through exercises like SQL Injection, XSS, XXE, CSRF, … and 
+             demonstrate how these exploits work.<br />
+             <br />
+             We will show you how you can use WebGoat to train your developers to avoid 
+             these simple but common programming mistakes. We also show you how to 
+             extend WebGoat to create lessons specific to your environment. Join us to 
+             learn the most basic, but common, application security problems.<br />
+             <br />
+             Tired of all the lessons? During the training we will host a small CTF 
+             competition which you can take a shot at and compete with each other.<br />
+             <br />
+             The workshop is really hands on, we explain the theory about the 
+             vulnerability and then it is up to the participants to solve the 
+             assignments. After each lesson we explain how to mitigate the 
+             vulnerability in your day to day development.<br />
+             <br />
+             It is an open source project and with this workshop we get a lot of 
+             feedback on how we can improve and new lessons to our framework.
+             <br />
+             Requirements:<br />
+             * Laptop with installed: Docker or Java 17
+   feed    :
+   url     :
+   urltag  :
+   display : yes
