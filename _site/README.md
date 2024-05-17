@@ -1,2 +1,2 @@
-# Owasp-BeNeLux-days-2024
+# Owasp-BeNeLux-Days-2024
 Conference site

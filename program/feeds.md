@@ -1,7 +1,7 @@
 ---
 title: Relive the conference
 ---
-<!-- 
+
 <div class="feeds-full">
 	<table>
   <thead>
@@ -31,4 +31,4 @@ title: Relive the conference
 		{% endif %}
 	{% endfor %}
 	</table>
-</div> -->
+</div>

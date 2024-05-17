@@ -1,5 +1,17 @@
 # 17/05/2024
-# Waiting for new content.
+# Waiting for new content This one may be removed when content is provided.
+- image   : owasp_logo.png
+  day     : 28/11/2024
+  time    : 09:00 - 17:00
+  name    : Owasp Conference
+  bio     : Game changer in security
+  title   : BeNeLux Days Conference
+  abstract: Day full of fun!
+  feed    : https://youtu.be/short-link
+  url     : https://www.google.com/
+  urltag  : PDF
+  display : yes
+  confirmed: yes
 
 # - day     : 23/11/2024
 #   time    : 08:30 - 09:00
