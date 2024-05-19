@@ -18,7 +18,7 @@ Drinks are kindly offered by:
   {% if socialEventSponsors %}
     {% for sponsor in socialEventSponsors %}
       <div class="socialevensponsor">
-        <a href="{{ sponsor.url }}" target="_blank"><img src="{{ site.baseurl }}assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
+        <a href="{{ sponsor.url }}" target="_blank"><img src="{{ site.baseurl }}/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
       </div>
     {% endfor %}
   {% endif %}

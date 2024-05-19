@@ -29,10 +29,10 @@ title: Trainings
 		{% if training.name %}
 		<li>
         <a name="{{training.name | replace: " ","-"}}">
-        <img style="background-image: url({{ site.baseurl }}assets/images/training/{{training.image | default:'owasp_logo.png'}});{{training.style}};"></a>
+        <img style="background-image: url({{ site.baseurl }}/assets/images/training/{{training.image | default:'owasp_logo.png'}});{{training.style}};"></a>
 	{% if training.name2 %}
 	  <a name="{{training.namei2 | replace: " ","-"}}">
-          <img style="background-image: url({{ site.baseurl }}assets/images/training/{{training.image2 | default:'owasp_logo.png'}});{{training.style}}; margin-top: 210px;"></a>
+          <img style="background-image: url({{ site.baseurl }}/assets/images/training/{{training.image2 | default:'owasp_logo.png'}});{{training.style}}; margin-top: 210px;"></a>
 	{% endif %}
       {% if training.title %}
         <h2>{{training.title}} by {{training.name}}{% if training.name2 %} and {{training.name2}}{% endif %}</h2>
@@ -42,7 +42,7 @@ title: Trainings
 
       <p><em>{{training.time}}</em>
       {% if training.feed %}
-          <a href="{{ site.baseurl }}program/feeds#{{training.name}}">Check out the streaming feed!</a>  
+          <a href="{{ site.baseurl }}/program/feeds#{{training.name}}">Check out the streaming feed!</a>  
       {% endif %}
       </p>
       {% if training.abstract %}

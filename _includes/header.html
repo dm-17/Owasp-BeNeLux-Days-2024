@@ -28,20 +28,20 @@
   <meta property="og:image:height" content="500">
 
 
-<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}assets/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}assets/icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}assets/icons/favicon-16x16.png">
-<link rel="manifest" href="{{ site.baseurl }}assets/icons/site.webmanifest">
-<link rel="mask-icon" href="{{ site.baseurl }}assets/icons/safari-pinned-tab.svg" color="#0079a7">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/icons/favicon-16x16.png">
+<link rel="manifest" href="{{ site.baseurl }}/assets/icons/site.webmanifest">
+<link rel="mask-icon" href="{{ site.baseurl }}/assets/icons/safari-pinned-tab.svg" color="#0079a7">
 <meta name="msapplication-TileColor" content="#0079a7">
 <meta name="theme-color" content="#ffffff">
 
 
-	<link type="text/css" rel="stylesheet" href="{{ site.baseurl }}assets/css/style.css?_={{ site.time | date: '%s' }}">
+	<link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css?_={{ site.time | date: '%s' }}">
   <title>{{ page.title }}</title>
   <link href="https://fonts.googleapis.com/css?family=Brawler|Titillium+Web" rel="stylesheet">
 <body class="{{page.bodyclass}}">
-<header style="background-image: url({{ site.baseurl }}assets/images/simpleback.svg), url({{ site.baseurl }}assets/images/utrecht_houten2.jpg);">
+<header style="background-image: url({{ site.baseurl }}/assets/images/simpleback.svg), url({{ site.baseurl }}/assets/images/utrecht_houten2.jpg);">
 	<nav>
     <a href="#" class="burger dropdown-toggle" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">☰</a>
     <ul class="nav navbar-nav">
@@ -52,7 +52,7 @@
             {% if menu.url contains '://' %}
               {% assign topurl = {{menu.url}} %}
             {% else %}
-              {% assign topurl = {{ site.baseurl }}{{menu.url}} %}
+              {% assign topurl = {{ site.baseurl }}/{{menu.url}} %}
             {% endif %}
           {% else %}
             {% assign topurl = "#" %}
@@ -63,7 +63,7 @@
               {% if item.url contains '://' %}
                   <li><a href="{{item.url}}">{{item.title}}</a></li>
               {% else %}
-                  <li><a href="{{ site.baseurl }}{{item.url}}">{{item.title}}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{item.url}}">{{item.title}}</a></li>
               {% endif %}
           {% endfor %}
           </ul>
@@ -73,14 +73,14 @@
           {% if menu.url contains '://' %}
             <a href="{{menu.url}}">{{menu.title}}</a>
           {% else %}
-            <a href="{{ site.baseurl }}{{menu.url}}">{{menu.title}}</a>
+            <a href="{{ site.baseurl }}/{{menu.url}}">{{menu.title}}</a>
           {% endif %}
         </li>
       {% endif %}
     {% endfor %}
     </ul>
   </nav>
-	<a class="logo" href="{{ site.baseurl }}">
+	<a class="logo" href="{{ site.baseurl }}/">
 		<h1>OWASP BeNeLux Days Conference 2024</h1>
 		<h2>by OWASP Foundation</h2>
 	</a>
