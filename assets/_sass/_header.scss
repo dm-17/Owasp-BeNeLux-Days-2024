@@ -6,7 +6,7 @@ header {
 	background-position: center center;
 	background-repeat: repeat-y, no-repeat;
 	background-size: cover, cover;
-	background-blend-mode: hard-light, normal;
+	background-blend-mode: multiply, lighten;
 	width: 100%;
 	color: $white;
 	padding: 2em 4em 1em 4em;
