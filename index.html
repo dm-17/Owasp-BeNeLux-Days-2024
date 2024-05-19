@@ -16,7 +16,7 @@ bodyclass: front
 	{% for speaker in speakers %}
 	{% if speaker.display %}
 	  <ul>
-		<li><a href="/program/conference#{{speaker.name | replace: " ","-"}}">{{speaker.title}}</a> by {{speaker.name}}</li>
+		<li><a href="{{site.baseUrl}}program/conference#{{speaker.name | replace: " ","-"}}">{{speaker.title}}</a> by {{speaker.name}}</li>
 	  </ul>
 	{% endif %}
 	{% endfor %}
@@ -29,7 +29,7 @@ bodyclass: front
 	{% for training in trainings %}
 	{% if training.display %}
 	  <ul>
-		<li><a href="/program/training#{{training.name | replace: " ","-"}}">{{training.title}}</a> by {{training.name}}{% if training.name2 %} and {{training.name2}}{% endif %}</li>
+		<li><a href="{{site.baseUrl}}program/training#{{training.name | replace: " ","-"}}">{{training.title}}</a> by {{training.name}}{% if training.name2 %} and {{training.name2}}{% endif %}</li>
 	  </ul>
 	{% endif %}
 	{% endfor %}
@@ -39,7 +39,7 @@ bodyclass: front
 
 
 <h2>OWASP BeNeLux conference is free, but registration is required!</h2>
-<p>To support the OWASP organisation, consider to become a member, it's only <strong>US$50!</strong> Check out the <a href="https://wiki.owasp.org/index.php/Membership">Membership</a> page to find out more.</p>
+<p>To support the OWASP organisation, consider to become a member, it's only <strong>US$50!</strong> Check out the <a href="https://owasp.org/membership/">Membership</a> page to find out more.</p>
 <br>
 <h2>What Happens at a OWASP BeNeLux Days Conference?</h2>
 <p>Never been to an OWASP BeNeLux Days Conference? <br>Here’s a bit of info to provide some background.</p>

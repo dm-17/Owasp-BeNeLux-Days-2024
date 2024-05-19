@@ -25,14 +25,14 @@ title: Speakers
 		{% if speaker.confirmed %}
 		<li>
         <a name="{{speaker.name | replace: " ","-"}}">
-        <img style="background-image: url(/assets/images/conference/{{speaker.image | default:'owasp_logo.png'}});{{speaker.style}};"></a>
+        <img style="background-image: url({{site.baseUrl}}assets/images/conference/{{speaker.image | default:'owasp_logo.png'}});{{speaker.style}};"></a>
         <h2>{{speaker.name}}</h2>
       {% if speaker.bio %}
 	<p>{{speaker.bio}}</p>
         <br>
       {% endif %}
       {% if speaker.title %}
-        <h2>Talk: <a href="/program/talks#{{speaker.name | replace: " ","-"}}">{{speaker.title}}</a></h2>
+        <h2>Talk: <a href="{{site.baseUrl}}program/talks#{{speaker.name | replace: " ","-"}}">{{speaker.title}}</a></h2>
         <br>
       {% endif %}
 		</li>

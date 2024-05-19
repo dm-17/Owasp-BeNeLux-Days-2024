@@ -10,7 +10,7 @@ title: Talks
 	{% for speaker in speakers %}
 		{% if speaker.confirmed %}
 		<tr>
-			<td><a href="/program/talks#{{speaker.name | replace: " ","-"}}">{{speaker.title}}</a></td>
+			<td><a href="{{site.baseUrl}}program/talks#{{speaker.name | replace: " ","-"}}">{{speaker.title}}</a></td>
 		</tr>
 		{% endif %}
 	{% endfor %}
@@ -25,8 +25,8 @@ title: Talks
 		{% if speaker.confirmed %}
 		<li>
         		<a name="{{speaker.name | replace: " ","-"}}">
-        		<img style="background-image: url(/assets/images/conference/{{speaker.image | default:'owasp_logo.png'}});{{speaker.style}};"></a>
-        		<h2>{{speaker.title}} by <a href="/program/speakers#{{speaker.name | replace: " ","-"}}">{{speaker.name}}</a></h2>
+        		<img style="background-image: url({{site.baseUrl}}assets/images/conference/{{speaker.image | default:'owasp_logo.png'}});{{speaker.style}};"></a>
+        		<h2>{{speaker.title}} by <a href="{{site.baseUrl}}program/speakers#{{speaker.name | replace: " ","-"}}">{{speaker.name}}</a></h2>
         		<p>{{speaker.abstract}}</p>
         		<br>
 		</li>

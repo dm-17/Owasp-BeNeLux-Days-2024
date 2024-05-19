@@ -13,7 +13,7 @@ title: Conference program
 			<td>{{speaker.time}}</td>
 		{% if speaker.display %}
 			<td>{{speaker.name}}</td>
-			<td><a href="/program/conference#{{speaker.name | replace: " ","-"}}">{{speaker.title}}</a></td>
+			<td><a href="{{site.baseUrl}}program/conference#{{speaker.name | replace: " ","-"}}">{{speaker.title}}</a></td>
 		{% else %}
 			<td colspan="2" align="center">{{speaker.title}}
 			{% if speaker.name %}
@@ -23,7 +23,7 @@ title: Conference program
 		{% endif %}
 		<td>
 		{% if speaker.feed %}
-		<a href="{{speaker.feed}}"><img class="youtube" src="/assets/images/conference/youtube_social_icon_red.png"></a>
+		<a href="{{speaker.feed}}"><img class="youtube" src="{{site.baseUrl}}assets/images/conference/youtube_social_icon_red.png"></a>
 		{% endif %}
 		</td>
 		</tr>
@@ -39,7 +39,7 @@ title: Conference program
 		{% if speaker.display %}
 		<li>
         <a name="{{speaker.name | replace: " ","-"}}">
-        <img style="background-image: url(/assets/images/conference/{{speaker.image | default:'owasp_logo.png'}});{{speaker.style}};"></a>
+        <img style="background-image: url({{site.baseUrl}}assets/images/conference/{{speaker.image | default:'owasp_logo.png'}});{{speaker.style}};"></a>
       {% if speaker.title %}
         <h2>{{speaker.title}} by {{speaker.name}}</h2>
       {% else %}
@@ -48,7 +48,7 @@ title: Conference program
 
       <p><em>{{speaker.time}}</em>
       {% if speaker.feed %}
-          - <a href="/program/feeds#{{speaker.name}}">Check out the streaming feed!</a>
+          - <a href="{{site.baseUrl}}program/feeds#{{speaker.name}}">Check out the streaming feed!</a>
       {% endif %}
       </p>
 
