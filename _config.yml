@@ -6,9 +6,7 @@ markdown: kramdown
 safe: false
 
 
-baseurl: /
-
-# baseurl: "/Owasp-BeNeLux-Days-2024/" 
+# baseurl: /
 
 # multiply: url(assets/images/simpleback.svg)
 
