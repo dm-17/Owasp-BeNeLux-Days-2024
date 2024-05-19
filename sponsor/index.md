@@ -7,8 +7,8 @@ title: Become a sponsor of OWASP BeNeLux!
 <!-- To revisit + add the pdf in /assets/files/ -->
 
 
-<!-- ## OWASP - Sponsorship OWASP BeNeLux Chapters and 2024 conference
-
+## OWASP - Sponsorship OWASP BeNeLux Chapters and 2024 conference
+<!-- 
 <a href="/assets/files/OWASP_BeNeLux_2024_sponsorship_packages.pdf" download>Download our sponsor brochure</a>  
 
 The **OWASP chapter meetings & Events** are the premier events worldwide and locally for IT and application and software security **technologists**, including CSOs, CISOs, CTOs, CIOs, DSOs, security architects, developers, network admins, application admins, MIS directors, government defense chiefs, and integrators.

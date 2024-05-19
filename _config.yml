@@ -1,5 +1,5 @@
-port: 4000
-lsi: false
+# port: 4000
+# lsi: false
 markdown: kramdown
 
 # Since GH pages override this to "true", we test this value to see if we are running locally
@@ -12,16 +12,16 @@ excerpt_separator: <!--more-->
 sass:
   sass_dir: assets/_sass
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#       type: "pages"
+#     values:
+#       layout: "default"
+#   -
+#     scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: "post"
