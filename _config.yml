@@ -9,7 +9,7 @@ safe: false
 # baseUrl: "/" 
 baseUrl: "/Owasp-BeNeLux-Days-2024/" 
 
-multiply: url({{site.baseUrl}}assets/images/simpleback.svg)
+multiply: url(assets/images/simpleback.svg)
 
 excerpt_separator: <!--more-->
 
