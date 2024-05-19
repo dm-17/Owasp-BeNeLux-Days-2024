@@ -10,7 +10,7 @@ section {
 		font-size: 110%;
 	}
 	h2.punch{
-		color: #CE0000;
+		color: $red;
 	}
 	ul {
 		padding: 0em 1em 1em 1.5em;
@@ -53,7 +53,7 @@ section {
 		thead {
 			tr {
 				background: $darkblue;
-				color: #fff;
+				color: $white;
 			}
 			th {
 				text-align: left;
@@ -62,7 +62,7 @@ section {
 		}
 		tbody {
 			tr:nth-child(2n) {
-				background: #eee;
+				background: $almostwhite;
 			}
 		}
 	}

@@ -1,4 +1,5 @@
-{% assign baseUrl = "/" %}<!DOCTYPE html>
+{% assign baseUrl = "/" %}
+<!DOCTYPE html>
 <html>
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -36,11 +37,11 @@
 <meta name="theme-color" content="#ffffff">
 
 
-	<link type="text/css" rel="stylesheet" href="/assets/css/style.css?_={{ site.time | date: '%s' }}">
+	<link type="text/css" rel="stylesheet" href="{{baseUrl}}assets/css/style.css?_={{ site.time | date: '%s' }}">
   <title>{{ page.title }}</title>
   <link href="https://fonts.googleapis.com/css?family=Brawler|Titillium+Web" rel="stylesheet">
 <body class="{{page.bodyclass}}">
-<header style="background-image: {{site.multiply}}, url(/assets/images/utrecht_banner.jpg);">
+<header style="background-image: {{site.multiply}}, url({{baseUrl}}assets/images/utrecht_houten2.jpg);">
 	<nav>
     <a href="#" class="burger dropdown-toggle" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">☰</a>
     <ul class="nav navbar-nav">
@@ -79,7 +80,7 @@
     {% endfor %}
     </ul>
   </nav>
-	<a class="logo" href="/">
+	<a class="logo" href="{{baseUrl}}">
 		<h1>OWASP BeNeLux Days Conference 2024</h1>
 		<h2>by OWASP Foundation</h2>
 	</a>
