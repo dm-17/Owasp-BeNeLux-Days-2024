@@ -13,7 +13,7 @@
     <h2>Gold sponsors</h2>
     {% for sponsor in goldSponsors %}
       <div class="sponsor" style="{{ sponsor.style }}">
-      	<a href="{{ sponsor.url }}" target="_blank"><img src="{{site.baseUrl}}assets/images/sponsors/{{sponsor.image}}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
+      	<a href="{{ sponsor.url }}" target="_blank"><img src="{{ site.baseurl }}assets/images/sponsors/{{sponsor.image}}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
       </div>
     {% endfor %}
   {% endif %}
@@ -22,7 +22,7 @@
     <h2>Silver sponsors</h2>
     {% for sponsor in silverSponsors %}
       <div class="sponsor" style="{{ sponsor.style }}">  
-      	<a href="{{ sponsor.url }}" target="_blank"><img src="{{site.baseUrl}}assets/images/sponsors/{{sponsor.image}}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
+      	<a href="{{ sponsor.url }}" target="_blank"><img src="{{ site.baseurl }}assets/images/sponsors/{{sponsor.image}}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
       </div>
     {% endfor %}
   {% endif %}
@@ -31,7 +31,7 @@
     <h2>Bronze sponsors</h2>
     {% for sponsor in bronzeSponsors %}
       <div class="sponsor" style="{{ sponsor.style }}">
-      	<a href="{{ sponsor.url }}" target="_blank"><img src="{{site.baseUrl}}assets/images/sponsors/{{sponsor.image}}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
+      	<a href="{{ sponsor.url }}" target="_blank"><img src="{{ site.baseurl }}assets/images/sponsors/{{sponsor.image}}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
       </div>
     {% endfor %}
   {% endif %}
@@ -40,7 +40,7 @@
     <h2>Social Event sponsor</h2>
     {% for sponsor in socialEventSponsors %}
       <div class="sponsor" style="{{ sponsor.style }}">
-      	<a href="{{ sponsor.url }}" target="_blank"><img src="{{site.baseUrl}}assets/images/sponsors/{{sponsor.image}}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
+      	<a href="{{ sponsor.url }}" target="_blank"><img src="{{ site.baseurl }}assets/images/sponsors/{{sponsor.image}}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
       </div>
     {% endfor %}
   {% endif %}

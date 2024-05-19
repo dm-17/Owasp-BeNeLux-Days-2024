@@ -3,8 +3,8 @@ OWASP BeNeLux Days
 How to test pages locally
 
 1/ Define the root folder:
-- If you run locally, use `baseUrl: "/"` in _config.yml 
-- If you host it e.g. on github pages, set the folder in `baseUrl: "foldername"` 
+- If you run locally, use `baseurl: "/"` in _config.yml 
+- If you host it e.g. on github pages, set the folder in `baseurl: "foldername"` 
 
 2/ Start the container with 
 docker-compose up

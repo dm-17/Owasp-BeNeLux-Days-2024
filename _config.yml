@@ -6,26 +6,27 @@ markdown: kramdown
 safe: false
 
 
-# baseUrl: "/" 
-baseUrl: "/Owasp-BeNeLux-Days-2024/" 
+baseurl: /
 
-multiply: url(assets/images/simpleback.svg)
+# baseurl: "/Owasp-BeNeLux-Days-2024/" 
+
+# multiply: url(assets/images/simpleback.svg)
 
 excerpt_separator: <!--more-->
 
 sass:
   sass_dir: assets/_sass
 
-# defaults:
-#   -
-#     scope:
-#       path: ""
-#       type: "pages"
-#     values:
-#       layout: "default"
-#   -
-#     scope:
-#       path: ""
-#       type: "posts"
-#     values:
-#       layout: "post"
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

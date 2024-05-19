@@ -16,7 +16,7 @@ bodyclass: front
 	{% for speaker in speakers %}
 	{% if speaker.display %}
 	  <ul>
-		<li><a href="{{site.baseUrl}}program/conference#{{speaker.name | replace: " ","-"}}">{{speaker.title}}</a> by {{speaker.name}}</li>
+		<li><a href="{{ site.baseurl }}program/conference#{{speaker.name | replace: " ","-"}}">{{speaker.title}}</a> by {{speaker.name}}</li>
 	  </ul>
 	{% endif %}
 	{% endfor %}
@@ -29,7 +29,7 @@ bodyclass: front
 	{% for training in trainings %}
 	{% if training.display %}
 	  <ul>
-		<li><a href="{{site.baseUrl}}program/training#{{training.name | replace: " ","-"}}">{{training.title}}</a> by {{training.name}}{% if training.name2 %} and {{training.name2}}{% endif %}</li>
+		<li><a href="{{ site.baseurl }}program/training#{{training.name | replace: " ","-"}}">{{training.title}}</a> by {{training.name}}{% if training.name2 %} and {{training.name2}}{% endif %}</li>
 	  </ul>
 	{% endif %}
 	{% endfor %}
