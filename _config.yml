@@ -7,6 +7,9 @@ safe: false
 
 multiply: url(assets/images/simpleback.svg)
 
+# baseUrl: "/" 
+baseUrl: "/Owasp-BeNeLux-Days-2024/" 
+
 excerpt_separator: <!--more-->
 
 sass:
