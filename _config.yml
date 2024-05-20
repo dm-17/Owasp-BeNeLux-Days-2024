@@ -15,7 +15,7 @@ excerpt_separator: <!--more-->
 sass:
   sass_dir: assets/_sass
 
-checkmarkimg: <img class="checkmark" src="/assets/images/checkmark.svg" alt="checkmark" />
+checkmarkimg: <img class="checkmark" alt="checkmark" />
 
 defaults:
   -
