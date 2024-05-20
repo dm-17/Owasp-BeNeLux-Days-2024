@@ -8,8 +8,8 @@
 #     url  : program/training
 #   - title: Social event
 #     url  : program/socialevent
-# - title: Location
-#   url  : location/
+- title: Location
+  url  : location/
 - title: Sponsor
   url  : sponsor/
 # - title: Relive the conference
