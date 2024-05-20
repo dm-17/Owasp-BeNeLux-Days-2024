@@ -4,71 +4,117 @@ title: Become a sponsor of OWASP BeNeLux!
 #layout: multisection
 ---
 
-<!-- To revisit + add the pdf in {{ site.baseurl }}/assets/files/ -->
+<!-- To revisit + add the pdf in /assets/files/ -->
 
 
-## OWASP - Sponsorship OWASP BeNeLux Chapters and 2024 conference
-<!-- 
+## Why Sponsor OWASP BeNeLux Days 2024?
+
 <a href="{{ site.baseurl }}/assets/files/OWASP_BeNeLux_2024_sponsorship_packages.pdf" download>Download our sponsor brochure</a>  
 
-The **OWASP chapter meetings & Events** are the premier events worldwide and locally for IT and application and software security **technologists**, including CSOs, CISOs, CTOs, CIOs, DSOs, security architects, developers, network admins, application admins, MIS directors, government defense chiefs, and integrators.
+OWASP chapter Meetings & Events are the heartbeat of the application and product security 
+community, aimed to spread knowledge and learn from each other.
 
-These important inﬂuencers **drive buying decisions** for security purchases. OWASP provides sponsors with **exclusive access** to its audiences.
+The local Chapters of OWASP in The Netherlands and Belgium come together every year to 
+host a physical event called “**OWASP BeNeLux Days**” which this year is happening in the 
+heart of the City of Utrecht in the Netherlands. It brings together a wide range of 
+security technologists, from executives to individual contributors across SMBs and major 
+corporations.These are important influencers and decision makers who drive the buying 
+decisions for investments in security. 
 
-OWASP has established strategic relationships with many major media groups worldwide and in BeNeLux, focused on IT security—print publications, newsletters, portals, consultants, associations, and user groups. Your valuable message—and **leadership positioning**—reaches thousands of prospects before you even arrive at OWASP events.
+This event presents sponsors with a unique opportunity to elevate their brand visibility 
+among a select group of influential individuals through our competitive sponsorship packages.
 
-OWASP’s mission is supported by a handful of security vendors and security organizations who share our **total customer** immersion approach to building relationships within the IT, application, and software security communities. This approach should be part of your overall marketing mix.
+We would be proud to work alongside and partner with vendors and organizations
+who believe in our mission to educate, inspire, and spread security awareness. Your
+support for our event will not only align and recognize your **brand** with key
+influencers, our community but also resonate with thousands of **potential customers**.
+By sponsoring our event, your message will be strategically tailored to engage with
+specific personas within our community who are active contributors and participants.
+This targeted approach ensures that your brand receives maximum exposure and
+recognition among our audience, ultimately driving demand and boosting brand
+awareness.
 
-Don't be left in the cold! Sponsorships are limited and will fill up very rapidly. All proceeds from sponsorship support the mission of the OWASP Foundation (represented in Europe by OWASP Europe VZW, non-profit under Belgian Law). Supporting these events drives the funding for research grants, tools and documents, local chapters, and more.
+Our sponsorship packages are designed to provide sponsors with maximum exposure
+and engagement, allowing them to showcase their brand in a compelling and impactful
+way.
 
-## These combined sponsorship packages (Gold, Silver, or Bronze) cover the BE+NL chapter meetings 2024 and the BeNeLux OWASP Days 2025.
+OWASP globally has established strategic relationships with many major media
+groups worldwide and in BeNeLux, focused on IT security—print publications,
+newsletters, portals, consultants, associations, and user groups. Your message—and
+leadership positioning—reaches thousands of prospects before you even arrive at
+OWASP events.
 
-- Each year regular **chapter meetings** are organized by the **chapters**. High quality **speakers** are combined with **panel discussions**. OWASP chapters are attended by an average of 80 people. Our chapter meetings are communicated directly to **1500 contacts in Belgium, and the Netherlands** who are active in application security.
+Please know that due to the high-profile nature of our non-profit organization, limited
+sponsorship opportunities are available and sell rapidly - so we urge you to act quickly!
+We would love to welcome you and your organization and hope to see you at the
+event!
 
-- In 2024 the **OWASP BeNeLux event** will be organized again on **Thursday 28 & Friday 29 November** in **Utrecht (NL)**. This edition will take place at the **Jaarbeurs** in **Utrecht**. OWASP BE+NL 2024 is **two full days** of hands-on **OWASP Training and Conference** with a lineup of **local and internationally renowned speakers** covering OWASP and application security topics. In previous editions 200+ people attended the BeNeLux day hosted by Corda in Hasselt (BE) and the Univeristy of Leuven (BE), the RAI in Amsterdam (NL) and the University of Luxembourg. For 2025 we are targeting **250+ attendees** from Belgium and The Netherlands and borders countries.
+**All proceeds from sponsorship support the mission of the OWASP Foundation
+(represented in Europe by OWASP Europe VZW, non-profit under Belgian Law).
+Supporting these events drives the funding for research grants, tools and documents,
+local chapters, and more.**
 
-- If we need to fall back on a virtual event, we will extend the sponsorship for one year towards including an in-person event.
+## About the Event
 
-Your sponsorship will be **invested directly** in the chapter meetings, supporting speaker and catering expenses. The sponsorship will also be dedicated to cover the costs of the OWASP 2023 BeNeLux event.
+Each year, our chapters organize regular meetings featuring high-quality speakers and
+panel discussions. These meetings typically attract an average of 80 attendees.
+Furthermore, we directly communicate our chapter meetings to 1500 security
+practitioners in Belgium and the Netherlands.
 
-Sebastian Deleersnyder & Irfaan Santoe  
-OWASP Foundation  
-  
-seba@owasp.org  
-irfaan.santoe@owasp.org  
+In 2024, the OWASP BeNeLux event returns on Thursday, November 28, and Friday,
+November 29, in Utrecht, Netherlands. Hosted at **Jaarbeurs** in **Utrecht**, OWASP
+BeNeLux 2024 spans two full days, featuring hands-on OWASP Training and a
+Conference with a lineup of esteemed local and international speakers addressing
+OWASP and security topics.
 
-## BeNeLux 23 Gold Sponsor € 3.300
+Previous editions attracted over 200 attendees from Belgium and The Netherlands,
+hosted at venues such as the University of Leuven, CORDA in Hasselt, the RAI in
+Amsterdam, and the University of Luxembourg. For 2024, we aim to exceed 250
+attendees.
 
-- Your company’s logo placed on the OWASP Belgium and The Netherlands chapter homepages for 1 year (2025)
+Your sponsorship will directly support our chapter meetings, covering speaker fees
+and catering expenses. Additionally, it will contribute to the costs associated with
+organizing the OWASP 2024 BeNeLux event.
 
-- Featured placement of company logo during each OWASP Chapter meeting in the BeNeLux  for 1 year (2025)
+## Sponsorship packages
 
-- Company Name featured at the bottom of each OWASP chapter invitation for 1 year (2025)
+We provide three sponsorship tiers: Bronze, Silver, and Gold.
 
-- Your company’s logo placed near BeNeLux Conference Schedule on the Conference Homepage
+Additionally, there are opportunities to sponsor specific items like social events as well
+([details here](#other-sponsorship-options)).
 
-- Your company’s banner roll-up (max 1mx2m) placed near entrance of the BeNeLux conference track
+### Sponsorship package details:
 
-- Featured placement of company logo or name on any posters and BeNeLux conference announcements
+| Benefits                                                                        | Bronze: <br /> 1500 € | Silver: <br /> 2500 € | Gold: <br /> 3500 €   |
+| ------------------------------------------------------------------------------- | --------------------- | --------------------- | --------------------- |
+| Company Logo displayed on promotional messages                                  | {{site.checkmarkimg}} | {{site.checkmarkimg}} | {{site.checkmarkimg}} |
+| Company logo on OWASP Belgium and The Netherlands chapter homepages for 2025    | {{site.checkmarkimg}} | {{site.checkmarkimg}} | {{site.checkmarkimg}} |
+| Company Logo displayed in the BeNeLux conference opening talks                  | {{site.checkmarkimg}} | {{site.checkmarkimg}} | {{site.checkmarkimg}} | 
+| Company logo displayed near BeNeLux conference schedule on conference homepage  | {{site.checkmarkimg}} | {{site.checkmarkimg}} | {{site.checkmarkimg}} |
+| Company banner near BeNeLux conference track entrance                           |                       | {{site.checkmarkimg}}<br /> (Max Size:<br /> 1m x 1m) | {{site.checkmarkimg}}<br /> (Max Size:<br /> 1m x 2m) |
+| Company logo/name featured on posters and BeNeLux conference announcements      |                       | {{site.checkmarkimg}} | {{site.checkmarkimg}} |
+| Booth at the BeNeLux conference                                                 |                       | {{site.checkmarkimg}}<br /> (Max Size:<br /> 2m x 2m) | {{site.checkmarkimg}}<br /> (Max Size:<br /> 2m x 3m) |
+| Company logo featured in all BeNeLux OWASP Chapter meetings for 2025            |                       |                       | {{site.checkmarkimg}} |
+| Company name featured on bottom of OWASP BE and NL chapter invitations for 2025 |                       |                       | {{site.checkmarkimg}} |
+| Raffle at the end of the conference                                             |                       |                       | {{site.checkmarkimg}} |
 
-- Your company logo featured in the BeNeLux conference opening talks
+### Other sponsorship Options:
 
-- Booth (3mx3m) at the BeNeLux conference
+| Sponsoring Option                                                                     | Cost   |
+| ------------------------------------------------------------------------------------- | ------ |
+| ** Social event sponsor: Sponsor for the social event in the evening of 28th Nov 2024 | 3000 € |
 
-- Raffle with invite on stage at the end of the conference
+Social sponsorship at the OWASP Benelux conference entails hosting the evening
+event near the conference venue, providing attendees with dinner and drinks. As a
+social sponsor, you'll have the opportunity to engage with conference participants in a
+relaxed setting, fostering networking and camaraderie among industry professionals.
 
-## BeNeLux 23 Silver Sponsor € 2.200
+** Please contact us for more options and details around Social Event Sponsorship.
 
-- All Gold sponsor benefits for one chapter of your choice (Belgium and The Netherlands), including a booth (3mx3m) and raﬄe at the BeNeLux Conference
+## Contact us:
 
-## BeNeLux 23 Bronze Sponsor € 1.100
+Priyam Awasthy ([priyam.awasthy@owasp.org](mailto:priyam.awasthy@owasp.org))  
+Amit Sharma ([amit.sharma@owasp.org](mailto:amit.sharma@owasp.org))  
+Stella Dineva ([stella.dineva@owasp.org](mailto:stella.dineva@owasp.org))  
 
-- All Gold sponsor benefits for one chapter of your choice (Belgium and The Netherlands), without a booth or raﬄe at the BeNelux  Conference
-
-## BeNeLux Social Event Sponsor € TBD
-
-- Dedicated sponsor for the social event in the evening of 23-Nov 2023
-
-- Budget to be discussed.
-
-<a href="/assets/files/OWASP_BeNeLux_2023_sponsorship_packages.pdf" download>Download our sponsor brochure</a>   -->
+<a href="{{ site.baseurl }}/assets/files/OWASP_BeNeLux_2024_sponsorship_packages.pdf" download>Download our sponsor brochure</a>
