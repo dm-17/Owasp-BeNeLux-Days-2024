@@ -1,13 +1,13 @@
 <footer>
-  <div class="strike">
-    <span>Sponsors</span>
-  </div>
-
   {% assign goldSponsors = site.data.sponsors | where:"level","Gold" | sort: 'name' %}
   {% assign silverSponsors = site.data.sponsors | where:"level","Silver" | sort: 'name' %}
   {% assign bronzeSponsors = site.data.sponsors | where:"level","Bronze" | sort: 'name' %}
   {% assign socialEventSponsors = site.data.sponsors | where:"level","Social event" | sort: 'name' %}
 
+  {% if goldSponsors.size > 0 or silverSponsors.size > 0 or bronzeSponsors.size > 0 or socialEventSponsors.size > 0 %}
+  <div class="strike">
+    <span>Sponsors</span>
+  </div>
  
   {% if goldSponsors.size > 0 %}
     <h2>Gold sponsors</h2>
@@ -48,6 +48,8 @@
   <div class="strike">
     <span>Sponsors</span>
   </div>
+  {% endif %}
+
   <div>&copy; OWASP Foundation 2024</div>
 </footer>
 </body>

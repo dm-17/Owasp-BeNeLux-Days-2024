@@ -10,7 +10,7 @@
 - image    : logo.svg
   name     : OWASP
   url      : https://www.owasp.org
-  level    : Gold
+  level    : Gold|Silver|Bronze|Social event
   style    :
 
 #  - image    : offensive-360-logo.svg
