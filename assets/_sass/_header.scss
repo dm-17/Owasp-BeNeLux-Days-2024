@@ -59,7 +59,7 @@ header {
 
 	nav {
 		display: flex;
-		justify-content: right;
+		justify-content: left;
 		padding: 0.75em;
 		margin-right: 2em;
 		margin-top: 0em;
@@ -72,21 +72,24 @@ header {
 		.burger {
 			display: none;
 			margin-left: 0.1em;
+			background: none;
+			color: $white;
 		}
 		a {
+			//color: $white;
 			color: $white;
+			background: $darkgray;
 			text-transform: uppercase;
 			padding: 0em 1em;
 			border-radius: 0.8em;
 			height: 1.6em;
 			&:hover{
-				background: $white;
-				color: $darkblue;
+				background: $almostwhite;
+				color: $darkgray;
 				text-decoration: none;
 			}
 			&:active {
-				background: $lightblue;
-
+				background: $darkgray;
 			}
 		}
 		> ul {
@@ -128,6 +131,7 @@ header {
 					line-height: 1.5em;
 
 					a { text-transform: none; }
+					
 				}
 				&:last-child {
 					ul {
