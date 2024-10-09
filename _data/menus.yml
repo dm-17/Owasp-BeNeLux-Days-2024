@@ -16,8 +16,8 @@
 #   url  : program/feeds
 - title: Donate
   url  : donate/
-#- title: Register
-#  url  : https://owasp-benelux-days-2024.eventbrite.com//
+- title: Register
+  url  : https://owasp-benelux-2024.eventbrite.com//
 - title: About
   items:
   - title: About OWASP
