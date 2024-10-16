@@ -12,6 +12,11 @@
   url  : location/
 - title: Sponsor
   url  : sponsor/
+  items:
+  - title: Sponsor
+    url  : sponsor/
+  - title: FAQ
+    url  : sponsor/faq
 # - title: Relive the conference
 #   url  : program/feeds
 - title: Donate
