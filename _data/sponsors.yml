@@ -13,74 +13,68 @@
   level    : Gold|Silver|Bronze|Social event
   style    :
 
-#  - image    : offensive-360-logo.svg
-#    name     : Offensive 360
-#    url      : https://offensive360.com/
-#    level    : Bronze
-#    style    :
+- image    : aikidodev.png
+  name     : Aikido Dev
+  url      : https://aikido.dev
+  level    : Gold
+  style    :
 
-#  - image    : secureflag.svg
-#    name     : SecureFlag
-#    url      : https://www.secureflag.com
-#    level    : Gold
-#    style    :
+- image    : opentext.svg
+  name     : OpenText
+  url      : https://opentext.com
+  level    : Silver
+  style    :
 
-#  - image    : armorcode_black.svg
-#    name     : ArmorCode
-#    url      : https://www.armorcode.com
-#    level    : Gold
-#    style    :
+- image    : iriusrisk.png
+  name     : IriusRisk
+  url      : https://iriusrisk.com
+  level    : Gold
+  style    :
 
-#  - image    : zimperium.png
-#    name     : ZIMPERIUM
-#    url      : https://www.zimperium.com/
-#    level    : Gold
-#    style    :
+- image    : armorcode.svg
+  name     : ArmorCode
+  url      : https://armorcode.io
+  level    : Gold
+  style    :
 
-#  - image    : cegeka.svg
-#    name     : Cegeka
-#    url      : https://www.cegeka.com
-#    level    : Gold
-#    style    :
+- image    : sig.png
+  name     : SIG
+  url      : https://sig.eu
+  level    : Gold
+  style    :
 
-#  - image    : cegeka.svg
-#    name     : Cegeka
-#    url      : https://www.cegeka.com
-#    level    : Social event
-#    style    :
+- image    : vest.png
+  name     : Vest
+  url      : https://vest.nl
+  level    : Gold
+  style    :
 
-#  - image    : snyk.jpg
-#    name     : Snyk
-#    url      : https://snyk.io
-#    level    : Gold
-#    style    : width:150px;
+- image    : endorlabs.svg
+  name     : Endor Labs
+  url      : https://endor.ai
+  level    : Gold
+  style    :
 
-#  - image    : contrast-security.png
-#    name     : Contrast Security
-#    url      : https://www.contrastsecurity.com
-#    level    : Gold
-#    style    : 
+- image    : verimatrix.svg
+  name     : Verimatrix
+  url      : https://verimatrix.com
+  level    : Gold
+  style    :
 
-#  - image    : fortify-opentext.png
-#    name     : Fortify
-#    url      : https://www.microfocus.com/en-us/cyberres/application-security
-#    level    : Silver
-#    style    : 
+- image    : sonatype.svg
+  name     : Sonatype
+  url      : https://sonatype.com
+  level    : Silver
+  style    :
 
-#  - image    : veracode.png
-#    name     : Veracode
-#    url      : https://www.veracode.com/
-#    level    : Gold
-#    style    : 
+- image    : toreon.png
+  name     : Toreon
+  url      : https://toreon.com
+  level    : Silver
+  style    :
 
-#  - image    : synopsys.jpg
-#    name     : Synopsys
-#    url      : https://www.synopsys.com/
-#    level    : Gold
-#    style    : 
-
-#  - image    : resillion.jpg
-#    name     : Resillion
-#    url      : https://www.resillion.com/
-#    level    : Silver
-#    style    : 
+- image    : synopsys.jpg 
+  name     : Synopsys
+  url      : https://synopsys.com
+  level    : Gold
+  style    :
