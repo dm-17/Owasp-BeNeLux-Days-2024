@@ -15,7 +15,7 @@
 
 - image    : aikidodev.png
   name     : Aikido Dev
-  url      : https://aikido.dev
+  url      : https://www.aikido.dev
   level    : Gold
   style    :
 
@@ -33,13 +33,13 @@
 
 - image    : armorcode.svg
   name     : ArmorCode
-  url      : https://armorcode.io
+  url      : https://www.armorcode.com
   level    : Gold
   style    :
 
 - image    : sig.png
   name     : SIG
-  url      : https://sig.eu
+  url      : https://www.softwareimprovementgroup.com
   level    : Gold
   style    :
 
@@ -51,7 +51,7 @@
 
 - image    : endorlabs.svg
   name     : Endor Labs
-  url      : https://endor.ai
+  url      : https://www.endorlabs.com
   level    : Gold
   style    :
 
@@ -73,8 +73,8 @@
   level    : Silver
   style    :
 
-- image    : synopsys.jpg 
+- image    : synopsys.png
   name     : Synopsys
-  url      : https://synopsys.com
+  url      : https://www.blackduck.com
   level    : Gold
   style    :
