@@ -58,7 +58,7 @@ div.keynote-full {
 	}
 	li {
 		padding-left: 210px;
-		padding-bottom:40px;
+		padding-bottom: 40px;
 		list-style-type: none !important;
 		clear: both;
 		ul {
@@ -98,6 +98,15 @@ div.keynote-full {
 		height: 1em;
 		border-radius: 0%;
 		margin-left:0px;
+	}
+
+	img.socialnetworks {
+		position: relative;
+		top: .2em;
+		width: 50px;
+		height: 43px;
+		border-radius: 0%;
+		margin-left:20px;
 	}
 }
 

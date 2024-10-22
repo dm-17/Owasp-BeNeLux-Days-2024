@@ -1,11 +1,11 @@
 # 17/05/2024
 
-# - title: Program
-#   items:
-#   - title: Conference
-#     url  : program/conference
-#   - title: Training
-#     url  : program/training
+- title: Program
+  items:
+  - title: Conference
+    url  : program/conference
+  - title: Training
+    url  : program/training
 #   - title: Social event
 #     url  : program/socialevent
 - title: Location

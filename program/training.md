@@ -1,13 +1,9 @@
----
-title: Trainings
----
-<!-- 
 <div class="keynote-full">
 
 {% if site.data.training[0].name %}
 
 
-  <h2>Trainings on 24/11/2023: Schedule</h2>
+  <h2>Trainings on 29/11/2024: Schedule</h2>
   {% assign trainings = site.data.training | sort: 'time' %}
   <table>
   {% for training in trainings %}
@@ -21,7 +17,7 @@ title: Trainings
   {% endfor %}
   </table>
   <br><br>
-	<h1>Trainings on Friday 24/11/2023:</h1>
+	<h1>Trainings on Friday 29/11/2024:</h1>
 	<br />
 	<ul>
 	{% assign trainings = site.data.training | sort: 'name' %}
@@ -41,23 +37,36 @@ title: Trainings
       {% endif %}
 
       <p><em>{{training.time}}</em>
+      <br /><br />
       {% if training.feed %}
           <a href="{{ site.baseurl }}/program/feeds#{{training.name}}">Check out the streaming feed!</a>  
       {% endif %}
       </p>
       {% if training.abstract %}
-        <h4>Abstract:</h4>
+        <h3>Abstract:</h3>
           <p>{{training.abstract}}</p>
           <br>
       {% endif %}
+      {% if training.reqs %}
+        <h3>Training requirements:</h3>
+          <p>{{training.reqs}}</p>
+          <br>
+      {% endif %}
       {% if training.bio %}
-        <h4>Bio:</h4>
+        <h3>Bio:</h3>
 	<p>{{training.bio}}</p>
         <br>
 	{% if training.bio2 %}
 	  <p>{{training.bio2}}</p>
 	  <br />
-	{% endif %}
+  {% endif %}
+  {% if training.linkedin %}
+        <h3>Follow {{training.name}}:</h3>
+		{% if training.linkedin %}
+			<a href="{{training.linkedin}}" title="{{training.linkedin}}'s Linkedin page" target="_blank"><img class="socialnetworks" src="{{ site.baseurl }}/assets/images/conference/linkedin.png"></a>
+		{% endif %}
+    <br /><br />
+  {% endif %}
       {% endif %}
 		</li>
 		{% endif %}
@@ -69,4 +78,4 @@ title: Trainings
      We will share the information very soon.
   </p>
 {% endif %}
-</div> -->
+</div>

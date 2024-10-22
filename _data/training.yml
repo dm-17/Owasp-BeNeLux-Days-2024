@@ -1,69 +1,120 @@
-# 17/05/2024
-# Waiting for new content This one may be removed when content is provided.
- - image   : owasp_logo.png
-   day     : 29/11/2024
-   time    : 09:00 - 17:00
-   name    : Marie Curie
-   bio     : Works with Pierre so he can get all the credits because he's a man
-   title   : What is radium and where to find it
-   abstract: Do you like making funny experiences bunnies or rats? Let's try to irradiate them and make them light the room at night.
-   feed    : 
-   url     : https://en.wikipedia.org/wiki/Marie_Curie
-   urltag  :
-   display : yes
+# 29/11/2024
+
+- image   : georges_bolssens.jpg
+  day     : 29/11/2024
+  time    : 09:00 - 17:00
+  name    : Georges Bolssens
+  bio     : >-
+            Georges Bolssens embarked on his coding journey in the early 1990s and delved
+            into the realm of application security in 2017. With an inherent passion for teaching,
+            Georges is not only a seasoned developer but also an adept communicator. </p>
+            <p>His unique talent lies in simplifying intricate subjects through relatable analogies,
+            making him an engaging and effective speaker. Having undertaken numerous consulting
+            assignments among which he can list vulnerability scanning and penetration testing 
+            as a "lone wolf", taking on the role of Security Champion in a Medical 
+            Device development team and acting as internal Application Security 
+            Coordinator at a Big4-consultancy firm. Throughout his career and in all 
+            these assignments, Georges has assumed the role of cybersecurity educator 
+            for a diverse spectrum of professionals. </p>
+            <p>His guidance has illuminated the path for individuals ranging from legal 
+            experts to ethical hackers and all those in between. </p>
+            <p>In his capacity as an Application- and Product Security Consultant at Toreon, 
+            Georges has been instrumental in assisting numerous clients in constructing 
+            comprehensive threat models for their digital assets.  </p>
+            <p>His expertise and commitment led threat-modeling authorities Sebastien 
+            Deleersnyder and Steven Wierckx to appointment as a co-instructor for 
+            Toreon's distinguished "Advanced Whiteboard Hacking – a.k.a. Hands-on 
+            Threat Modeling" course. </p>
+            <p>Notably, he taught this course at the esteemed "BlackHat USA" and "OWASP BeNeLux" 
+            conferences in 2023 and "Troopers" in Germany in 2024.
+  title   : Scaling Threat Modeling - Building and Maintaining Effective Security Pattern Libraries
+  abstract: >-
+            Scaling a threat modeling program is essential for maintaining a strong security 
+            posture as organizations grow. </p>
+            <p>This workshop will dive into the practical aspects of creating and maintaining 
+            security pattern libraries - essential tools for any security team.</p>
+            <p>We’ll start with a quick overview of threat modeling fundamentals before moving 
+            to hands-on activities. Using well-known frameworks like MITRE ATT&CK and CAPEC, 
+            participants will learn how to adapt public security patterns to fit their own 
+            organizations' needs. </p>
+            <p>We'll also explore using tools like IriusRisk Community Edition to automate 
+            threat modeling and ensure consistent application across various security 
+            infrastructures. </p>
+            <p>By the end of the session, attendees will have the skills to build a foundational 
+            security pattern library, with a focus on key areas like data protection, 
+            authorization, API security, and logging. This workshop is perfect for security 
+            professionals looking to grow their threat modeling programs by building resilient, 
+            reusable security patterns that can scale with the evolving needs of their organization.
+  feed    :
+  url     : 
+  linkedin: https://www.linkedin.com/in/georges-bolssens/
+  x_handle:
+  reqs    : >-
+            <ul>
+            <li>Hardware: A laptop with internet connectivity and a (modern) web browser is required 
+            to download course materials and consult the online resources. </li>
+            <li>Wetware: Basic threat modeling knowledge is highly preferred, but we 
+            propose to provide all participants with a free seat in our online, 
+            self-paced 'Threat Modeling Introduction' course. </li>
+            </ul>
+  urltag  : 
+  display : yes
 
 
-# - image   : image.jpg
-#   day     : 25/11/2023
-#   time    : 09:00 - 17:00
-#   name    : Trainer
-#   bio     : >-
-#             Biography
-#   title   : Training title
-#   abstract: >-
-#             Training description
-#   feed    :
-#   url     :
-#   urltag  :
-#   display : yes
-
-#  - image   : bjoern.jpg
-#    day     : 24/11/2023
-#    time    : 09:00 - 17:00
-#    name    : Björn Kimminich
-#    bio     : >-
-#              Björn works as Product Group Lead Application Ecosystem at 
-#              Kuehne+Nagel, responsible – among other things – for the 
-#              Application Security program in the corporate IT. He is an 
-#              OWASP Lifetime Member, the project leader of the OWASP Juice 
-#              Shop, and a co-chapter leader for the OWASP Germany Chapter. 
-#              Björn also currently chairs the OWASP Project Committee.
-#    title   : Juice Shop Training&#58; Train the Trainer Edition
-#    abstract: >-
-#              In this training we will learn how to fully use the OWASP Juice 
-#              Shop in our own training courses, lectures or awareness sessions:<br />
-#              <br />
-#              * Intro: In this short module, we'll get to know the OWASP Juice Shop 
-#                and try out some hacking and coding challenges.<br />
-#              * Mob hacking: Here we get to know some challenges that are particularly 
-#                (un)suitable for hacking in the plenum.<br />
-#              * Theming: This module is all about customizing the Juice Shop to 
-#                transform it into the look and feel of your company and customers.<br />
-#              * CTF: In this module we will use Juice Shop and CTFd tools to set up a 
-#                Capture-the-Flag event in very short time with all Juice Shop hacking 
-#                challenges<br />
-#              * Integration: Finally, let's look at ways to integrate with learning 
-#                platforms, dashboards, etc., as well as the Juice Shop's anti-cheat 
-#                features.<br />
-#              <br />
-#              All modules are as little slides as possible and instead rich in practical 
-#              exercises and examples!<br />
-#              <br />
-#              Requirements:<br />
-#              * Laptop with a recent version of Docker Desktop and Node.js/NPM installed
-#    feed    :
-#    url     :
-#    urltag  :
-#    display : yes
-
- 
+- image   : Philippe_De_Ryck.jpg
+  day     : 29/11/2024
+  time    : 09:00 - 17:00
+  name    : Philippe De Ryck
+  bio     : >-
+            Philippe De Ryck specializes in making web security accessible to developers and 
+            architects, leveraging his Ph.D. from KU Leuven to inform his comprehensive 
+            understanding of security challenges. <br />
+            As the founder of Pragmatic Web Security, he provides practical security 
+            training and consulting services to organizations worldwide. </p>
+            <p>His online course platform offers a self-paced approach to learning 
+            about security. Philippe also actively helps shape OAuth 2.0 best practices as 
+            the co-author of the best practices for browser-based apps specification. </p>
+            <p>Philippe is recognized as a Google Developer Expert, acknowledging his 
+            contributions to web application and API security. <br />
+            He also organizes SecAppDev, an annual week-long application security course in Belgium.
+  title   : Bulletproof APIs - Hands-On API Security Testing
+  abstract: >-
+            As APIs become a big part of our tech world, making sure they're secure is key. <br />
+            The 2023 version of the OWASP API Security top 10 shows us that API security needs 
+            our attention. Building secure APIs isn't easy, though. <br />
+            It needs developers and architects to really get API security, from the big 
+            picture down to the nitty-gritty details. </p>
+            <p>This workshop is here to give you the skills you need to make your APIs secure. <br />
+            We're going to think like an attacker to test APIs and like a defender to figure 
+            out the best ways to protect them. With deep-dive talks, real-world demos, 
+            fun quizzes, and hands-on labs, you'll learn how to lock down your APIs.<br />
+            <br />
+            During this hands-on training, we'll explore:
+            <ul>
+            <li>The security model of API-based web applications</li>
+            <li>Recognizing and addressing authorization failures</li>
+            <li>Understanding Broken Object Property Level Authorization (BOPLA) </li>
+            <li>Fixing Broken Object Level Authorization (BOLA)  </li>
+            <li>Testing the security of APIs that use JWTs </li>
+            <li>Best practices for making JWTs secure in modern APIs </li>
+            <li>Quizzes and labs to make learning stick </li>
+            <li>Q & A throughout the workshop to clear up any doubts </li>
+            </ul></p>
+            <p>This workshop is about more than theory. <br />
+            We're all about giving you practical security tips you can use right 
+            away as an API developer. </p>
+            <p>We dig into the root causes of API threats and how to handle them. <br />
+            We don't just skim the surface of problems and solutions - we get into 
+            the why's and how's, looking at common fixes, why some fall short, 
+            and which ones are currently the best way to go.</p>
+            <p>By the end of this workshop, you'll be up-to-speed on the best practices 
+            for API security. You'll also leave with a handy list of steps 
+            to check and boost the security of your applications.
+  feed    :
+  url     : 
+  linkedin: https://www.linkedin.com/in/PhilippeDeRyck/
+  x_handle:
+  reqs    : To participate in the lab sessions, participants need a computer with a 
+            full-featured modern browser installed (preferably Chrome).
+  urltag  : 
+  display : yes

@@ -1,85 +1,335 @@
-# 17/05/2024
+# 28/11/2024
 # Waiting for new content This one may be removed when content is provided.
-- image   : owasp_logo.png
+# - image   : owasp_logo.png
+#   day     : 28/11/2024
+#   time    : 09:00 - 17:00
+#   name    : Owasp Conference
+#   name2   : An accomplice
+#   bio     : Game changer in security
+#   title   : BeNeLux Days Conference
+#   abstract: Day full of fun!
+#   feed    : https://youtu.be/short-link
+#   url     : https://www.google.com/
+#   urltag  : PDF
+#   linkedin: 
+#   linkedin2: 
+#   x_handle:
+#   x_handle2:
+#   infosec:
+#   display : yes
+#   confirmed: yes
+
+- day     : 28/11/2024
+  time    : 08:45 - 09:00
+  title   : Registration booth and morning coffee
+
+- day     : 28/11/2024
+  time    : 09:00 - 09:15
+  name    : Owasp BeNeLux Team
+  title   : Opening / Welcome
+
+- image   : jim-manico.jpg
   day     : 28/11/2024
-  time    : 09:00 - 17:00
-  name    : Owasp Conference
-  bio     : Game changer in security
-  title   : BeNeLux Days Conference
-  abstract: Day full of fun!
-  feed    : https://youtu.be/short-link
-  url     : https://www.google.com/
-  urltag  : PDF
+  time    : 09:30 - 10:15
+  name    : Jim Manico
+  bio     : >-
+            Jim Manico is the Founder of Manicode Security, a company dedicated to providing 
+            expert training in secure coding and security engineering to software developers. 
+            His work at Manicode Security reflects his deep commitment to elevating software 
+            security standards in the industry.</p>
+            <p>In addition to leading Manicode, Jim is actively involved in the tech startup 
+            ecosystem as an investor and advisor. His portfolio includes notable companies 
+            such as SemGrep, EdgeScan, Nucleus Security, Defect Dojo, KSOC, Akto, MergeBase, 
+            Inspectiv, Levo.ai and Pheonix. Furthermore, he is a fund-limited investor 
+            with Aviso Ventures, bringing his knowledge of software security to the venture 
+            capital domain.</p>
+            <p>Jim is a recognized figure in the software development community, particularly 
+            known for his contributions to secure software practices. He holds the title of 
+            a Java Champion, acknowledging his contributions to the Java community. 
+            He is also the author of "Iron-Clad Java: Building Secure Web Applications", 
+            published by Oracle Press.</p>
+            <p>Jim is committed to giving back to the community through his volunteer work with 
+            the OWASP foundation. He co-leads projects such as the OWASP Application Security 
+            Verification Standard and the OWASP Cheatsheet Series, contributing significantly 
+            to the field of web application security.
+  title   : Opening Keynote 
+  abstract: AI for Secure Code Generation
+  linkedin: https://www.linkedin.com/in/jmanico
+  x_handle: https://x.com/manicode
+  feed    : 
+  url     : 
+  urltag  : 
   display : yes
   confirmed: yes
 
-# - day     : 23/11/2024
-#   time    : 08:30 - 09:00
-#   title   : Doors open and morning coffee
+- image   : spandan_chandra.jpg
+  day     : 28/11/2024
+  time    : 10:15 - 11:00
+  name    : Spandan Chandra
+  bio     : >- 
+            With over a decade of experience in cyber-security, risk management, and audits, 
+            I've had the opportunity to work with a range of organisations—from Fortune 500 
+            companies to SMBs—helping them secure their information assets and maintain 
+            compliance in an ever-evolving threat landscape. Throughout my career, I've 
+            focused on enhancing business efficiency, particularly through the strategic 
+            use of technology.</p>
+            <p>Today, as the co-founder of Secinnova, my focus is on how artificial 
+            intelligence can transform risk management and auditing processes. 
+            We support organisations to design solutions for automating key tasks 
+            and optimise human capital, allowing organisations to not only streamline 
+            compliance but also manage risk more effectively.</p>
+            <p>As we gather here at the OWASP Annual Conference, a hub of innovation 
+            and thought leadership in security, I;m excited to discuss the transformative 
+            potential of Gen-AI in IT risk management and auditing. Together, we'll 
+            explore how AI can enhance decision-making, reduce manual errors, and 
+            provide organisation with the tools they need to stay ahead in today's 
+            digital environment.</p>
+            <p>Let's dive into how AI can revolutionise the way we approach security, 
+            risk, and audits, and how we, as a community, can shape the future of these 
+            critical areas.
+  title   : Transforming IT Risk Management and Auditing with Gen-AI - Driving Efficiency and Insight
+  abstract: >-
+            In this talk, we will explore how Generative AI can be used to revolutionise 
+            IT risk management and auditing processes. From automating audit workflows 
+            and risk assessments to generating actionable insights and enhancing decision-making, 
+            AI-driven solutions are enabling (or can enable) organisations to streamline complex tasks.</p> 
+            <p>Quick glance at how Gen-AI can reduce human error, enhance compliance, 
+            and offer real-time risk mitigation in an increasingly digital landscape. 
+            We will also discuss real-world applications and future trends that are shaping 
+            the future of IT risk management and audits.
+  feed    : 
+  url     : 
+  urltag  : 
+  linkedin: https://www.linkedin.com/in/spandanchandra/
+  x_handle: 
+  display : yes
+  confirmed: yes
 
-# - day     : 23/11/2024
-#   time    : 09:00 - 09:15
-#   name    : Sebastien Deleersnyder
-#   title   : Opening / Welcome
+- day     : 28/11/2024
+  time    : 11:00 - 11:30
+  title   : Break
 
-# - day     : 23/11/2024
-#   time    : 10:35 - 11:05
-#   title   : Break
+- image   : robin_van_loon.jpg
+  day     : 28/11/2024
+  time    : 11:30 - 12:15
+  name    : Irfaan Santoe
+  name2   : Robin van Loon
+  bio     : >-
+            Irfaan Santoe is a seasoned Security Leader (ex-CISO of Aegon Netherlands) and 
+            highly experienced in scaling security in AppDev, DevOps, and Cloud environments. 
+            Over the course of his career, Irfaan had the privilege of fulfilling several 
+            Senior Security Leadership roles within global enterprises and listed multinationals, 
+            helping them solve complex information security challenges. Irfaan is the OWASP 
+            Chapter Leader of The Netherlands, Founder and Project Lead of the OWASP Security 
+            Champions Guide project, and a book author on the topic of DevSecOps.</p><br />
+            <p>With 25+ years of experience in the tech industry, Robin has a solid background 
+            in software development, application and information security. Being passionate 
+            about secure software development drives him to promote security initiatives 
+            in organizations and the AppSecOWASP community. 
+  title   : How to use OWASP Security Champions Guide for your Security Champions Program
+  abstract: >-
+            As organizations scale their software development efforts, security 
+            often becomes a bottleneck in ensuring fast, reliable, and secure product 
+            releases. The OWASP Security Champions Guide, provides a robust framework 
+            for embedding security expertise within development teams, fostering a 
+            proactive security culture.</p>
+            <p>This talk will guide you through the Security Champions Manifesto and 
+            its ten principles.This talk will delve into the core principles of the 
+            OWASP Security Champions Guide - the Security Champions Manifesto. 
+            Key manifesto pillars such as Be Passionate about Security, Start with
+            a clear Vision for your program and Secure Management Support will be 
+            discussed. You will be guided through each principle as we cover the what, 
+            why and how.Attendees will learn about each pillar of the manifesto, 
+            what it is, why it is important, and how to go about it to establish such 
+            a pillar of your program. </p>
+            <p>Irfaan & Robin will also highlight recent additions to the project 
+            and the roadmap for the next steps.Irfaan & Robin will also share the 
+            newest features in the development of the Guide and their release dates.</p>  
+            <p>By the end of this session, you will have actionable insights into 
+            building and maintaining your own security champions programs and how 
+            the OWASP Security Champions Guide can help you accelerate the implementation.
+  feed    : 
+  url     : 
+  urltag  : 
+  linkedin: https://www.linkedin.com/in/irfaansantoe/
+  linkedin2: https://www.linkedin.com/in/robin-van-loon-csslp-cissp-oswe/
+  x_handle:
+  display : yes
+  confirmed: yes
 
-# - day     : 23/11/2024
-#   time    : 12:25 - 13:25
-#   title   : Lunch
+- image   : olle_e_johansson.jpg
+  day     : 28/11/2024
+  time    : 12:15 - 13:00
+  name    : Olle E. Johansson
+  bio     : >- 
+            Olle E. Johansson is a consultant in the area of realtime communication 
+            and in embedded system security. He has been active in Open Source for 
+            many years as a developer, evangelist, trainer and speaker in many 
+            conferences worldwide. Olle is a member of the OWASP SBOM Forum and the 
+            OWASP CycloneDX industry working group. He is currently working on the 
+            CycloneDX Transparency Exchange API standard. Olle is currently a project 
+            leader for the Swedish DNS TAPIR project that is building Open Source 
+            software for analysing DNS resolver logs and finding bad actors. 
+  title   : Are you ready to be regulated? How the EU Cyber Resilience Act will change the software industry forever
+  abstract: >- 
+            The cost for the cybersecurity incidents all over the EU is too high. 
+            The EU believes that by regulating the cyber security of software, the total 
+            cost will go down as we get a more secure infrastructure in the home, in the 
+            office and everywhere we have networked systems. The regulation affects everything 
+            from embedded systems to servers, laptops and mobile apps. Development teams will 
+            have to focus on cybersecurity, companies will get responsibility for protecting 
+            their users and the software has to be secure by design from installation and 
+            during the lifetime of the product.</p>
+            <p>This will not only affect how we develop software, but also affects the 
+            business model for software.</p>
+            <p>Olle introduces the new regulation - how it affects both commercial 
+            vendors and Open Source projects.
+  feed    : 
+  url     : 
+  urltag  : 
+  linkedin: https://www.linkedin.com/in/ollejohansson/
+  infosec : https://infosec.exchange/@Oej
+  display : yes
+  confirmed: yes
 
-# - day     : 23/11/2024
-#   time    : 15:25 - 15:55
-#   title   : Break
+- day     : 28/11/2024
+  time    : 13:00 - 14:00
+  title   : Lunch
 
-# - day     : 23/11/2024
-#   time    : 17:15 - 17:30
-#   name    : Priyam Awasthy
-#   title   : Closing
+- image   : philippe_de_ryck.jpg
+  day     : 28/11/2024
+  time    : 14:00 - 14:45
+  name    : Philippe De Ryck
+  name2   : 
+  bio     : >-
+            Philippe De Ryck specializes in making web security accessible to developers 
+            and architects, leveraging his Ph.D. from KU Leuven to inform his comprehensive 
+            understanding of security challenges. As the founder of Pragmatic Web Security, 
+            he provides practical security training and consulting services to organizations 
+            worldwide. His online course platform offers a self-paced approach to learning 
+            about security. Philippe also actively helps shape OAuth 2.0 best practices 
+            as the co-author of the best practices for browser-based apps specification. 
+            Philippe is recognized as a Google Developer Expert, acknowledging his contributions 
+            to web application and API security. He also organizes SecAppDev, an annual 
+            week-long application security course in Belgium.
+  title   : Supercharging OAuth 2.0 security
+  abstract: >-
+            OAuth 2.0 is more than a decade old and has been adopted far beyond the initial 
+            expectations, including highly-sensitive eHealth and financial scenarios.</p>
+            <p>This session will guide you through using OAuth 2.0 in environments where 
+            security is paramount. We will dive into the latest specifications designed 
+            to enhance OAuth 2.0's security capabilities. Topics include advanced security 
+            features like JAR, PAR, and DPoP. By the end of this session, you will possess 
+            a comprehensive understanding of the security aspects of OAuth 2.0, equipped 
+            to implement it in high-stakes settings.
+  feed    : 
+  url     : 
+  urltag  : 
+  linkedin: https://www.linkedin.com/in/PhilippeDeRyck/
+  linkedin2: 
+  x_handle:
+  x_handle2:
+  infosec:
+  display : yes
+  confirmed: yes
 
-# - image   : himanshu.png
-#   day     : 23/11/2024
-#   time    : 15:55 - 16:35
-#   name    : Himanshu Mehta
-#   bio     : >-
-#             I possess both expertise and passion in the field of Offensive 
-#             and Defensive Security. I serve as an advisory board member for 
-#             the EC-Council’s Licensed Penetration Tester group and HackersEra. 
-#             I actively participate in numerous bug bounty and Capture the Flag 
-#             programs worldwide, and have been invited to present my research 
-#             at several prestigious international security conferences, 
-#             including BlackHat, RSAC USA, ICS Singapore, Hack In Paris, HITB 
-#             (Amsterdam, Dubai, Abu Dhabi), SecurityFest (Sweden), InfoSecurity 
-#             (London), Offzone (Moscow), NanoSec (Malaysia), DSCI, National 
-#             Cyber Security Conference, Best of the world Conference & Hakon. 
-#             My previous roles include Head of Cyber Threat Intelligence at 
-#             Hive Pro, Senior Security Researcher at Darkmatter, and leading a 
-#             global team of security intelligence at Symantec. These experiences 
-#             have provided me with valuable insights and fueled my desire to 
-#             continue growing as a creative leader in the field of cyber-security.
-#   title   : Down the Rabbit Hole&#58; Exploring GraphQL Exploitation
-#   abstract: >-
-#             "Down the Rabbit Hole: Exploring GraphQL Exploitation" is an 
-#             in-depth exploration into the world of GraphQL from a security 
-#             perspective. This talk is designed for those with a keen interest in 
-#             understanding the latest advancements in web technologies and their 
-#             potential vulnerabilities. It provides a roadmap to navigate the 
-#             complexities of GraphQL, demonstrating efficient methodologies for 
-#             building and consuming APIs while highlighting potential security 
-#             risks.<br />
-#             <br />
-#             The talk delves into the diverse ecosystem of tools, libraries, and 
-#             frameworks available across various programming languages, offering 
-#             real-time data updates through its subscription mechanism. It also 
-#             discusses the practical implementation and integration of GraphQL in 
-#             different environments, emphasizing potential security implications. 
-#             Whether you’re an experienced developer or a cybersecurity 
-#             professional, this talk will arm you with the necessary knowledge 
-#             and tools to effectively exploit and secure GraphQL implementations.
-#   feed    : https://youtu.be/mvQ-oR8LrB8
-#   url     : https://drive.google.com/file/d/1Z7SlcJmfYWtFBxvKBMIUSf4OCdTvTybi/view?usp=sharing
-#   urltag  : PDF
-#   display : yes
-#   confirmed: yes
+- image   : tiago_teles.png
+  day     : 28/11/2024
+  time    : 14:45 - 15:30
+  name    : Tiago Teles
+  name2   : 
+  bio     : >-
+            Tiago Teles has 20+ years of cybersecurity leadership experience. 
+            He is currently a manager at ABN AMRO bank and a cybersecurity lecturer 
+            at TIAS Business School. His passion lies in understanding cutting edge 
+            technologies and how best to secure them. He is the author of the book 
+            “Emerging Tech, Emerging Threats” (together with author Arnaud Wiehe). He 
+            holds an MBA and CISSP certification.
+  title   : The dawn of the emerging tech hero
+  abstract: >-
+            In a world where new emerging technologies revolutionise entire industries, 
+            one group holds to key to making emerging technologies go mainstream - 
+            security professionals. These are the unsung heroines of any technology 
+            revolution but it's key to understand why and how.</p>
+            <p>In this talk we will understand what that heroine looks like and 
+            what you must do to become that heroine. In your organisations and in 
+            the world. Excelling at discovering security vulnerabilities is not 
+            enough and won't get the needle moving. Together we will discover the 
+            holistic picture of our heroine - from hard skills to soft skills and 
+            everything in between.
+  feed    : 
+  url     : 
+  urltag  : 
+  linkedin: https://nl.linkedin.com/in/tiagoteles
+  linkedin2: 
+  x_handle:
+  x_handle2:
+  infosec:
+  display : yes
+  confirmed: yes
+
+- day     : 28/11/2024
+  time    : 15:30 - 16:00
+  title   : Break
+
+- image   : mackenzie_jackson.jpg
+  day     : 28/11/2024
+  time    : 16:00 - 16:45
+  name    : Mackenzie Jackson
+  name2   : 
+  bio     : >-
+            Mackenzie is a security researcher and advocate with a passion for 
+            application security. As the co-founder and former CTO of the health 
+            tech company Conpago, he learned first-hand how critical it is to build 
+            secure applications.</p>
+            Today as an Advocate at Aikido Security, Mackenzie shares his passion for 
+            security with developers and works closely with research teams to reveal 
+            how malicious actors discover and exploit vulnerabilities in code. 
+            Mackenzie is also a seasoned speaker having spoken at conferences in 
+            29 countries, he is the host of The Security Repo podcast and a frequent 
+            contributor to various technical publications like Dark Reading and 
+            Security Boulevard.
+  title   : From Code to Cloud - Securing the Stack with Open-Source Tools
+  abstract: >-
+            Open-source tools offer a powerful, cost-effective solution for securing 
+            modern applications from development through deployment. This talk will 
+            walk through key tools that help protect your entire stack—from securing 
+            your codebase, to monitoring cloud environments, and automating vulnerability 
+            detection. We'll also discuss the strengths and limitations of open-source 
+            security tools, showing when they can be the perfect fit for your needs, 
+            and when proprietary or custom solutions may be more appropriate.</p>
+            <p>Attendees will see live demos of tools like OWASP ZAP, Trivy, Bandit, 
+            and Checkov to help them understand how to effectively incorporate these 
+            solutions. You'll leave with practical knowledge of the best tools for 
+            various security tasks and guidance on integrating them to protect your 
+            applications at every level.
+  feed    : 
+  url     : 
+  urltag  : 
+  linkedin: https://linkedin.com/in/advocatemack
+  linkedin2: 
+  x_handle: https://x.com/advocatemack
+  x_handle2:
+  infosec:
+  display : yes
+  confirmed: yes
+
+- image   : owasp_logo.png
+  day     : 28/11/2024
+  time    : 16:45 - 17:30
+  name    : coming soon...
+  bio     : 
+  title   : Closing Keynote 
+  abstract: 
+  linkedin: 
+  x_handle: 
+  feed    : 
+  url     : 
+  urltag  : 
+  display : yes
+  confirmed: yes
+
+- day     : 28/11/2024
+  time    : 17:30 - 17:45
+  name    : Owasp BeNeLux Team
+  title   : Closing
