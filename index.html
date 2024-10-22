@@ -7,61 +7,60 @@ show_trainings: false
 ---
 <section class="punch">
 
-<h2>The OWASP BeNeLux Days 2024 edition will take place on the  28th and 29th of November in Utrecht, the Netherlands!</h2>
+<p>The OWASP BeNeLux Days 2024 edition will take place on the 28th and 29th of November in Utrecht, the Netherlands!</p>
+
+<h3>This is an <a href="/location/">ON-SITE ONLY</a> event!</h3>
+<p>Video recordings of the talks will be made available a few days after the conference.</p>
 <br />
 
-<h2>The following speakers will present during the conference day on the 28th of November</h2>
-<ul>
-  <li>Jim Manico</li>
-  <li>Spandan Chandra</li>
-  <li>Olle E Johansson</li>
-  <li>Mackenzie Jackson</li>
-  <li>Tiago Teles</li>
-  <li>Robin van Loon</li>
-  <li>Irfaan Santoe</li>
-  <li>Victor Gevers</li>
-  <li>Philippe De Ryck</li>
-</ul>
-
-<h2>We have the following trainings on the 29th of November</h2>
-<ul>
-  <li>Security Patterns by Georges Bolssens</li>
-  <li>Bulletproof APIs: Hands-On API Security Testing by Philippe De Ryck</li>
-</ul>
-
-You can register at <a href="https://owasp-benelux-2024.eventbrite.com ">https://owasp-benelux-2024.eventbrite.com </a>.<br />
-More information will follow.
-<br />
-<br />
-
-{% if page.show_program and site.data.conference[0].title %}
-<h2>Conference program on Thursday 28/11/2024</h2>
+<h2>Conference day on the 28th of November (<a href="/location/">On-site only</a>)</h2>
+<p>We are thrilled to announce the following speakers:</p>
+<p><a href="/program/conference">Full Program Schedule</a></p>
+{% if site.data.conference[0].title %}
 	{% assign speakers = site.data.conference | sort: 'time' %}
+	<div class="frontpagelist">
+	<ul>
 	{% for speaker in speakers %}
-	{% if speaker.display %}
-	  <ul>
-		<li><a href="{{ site.baseurl }}/program/conference#{{speaker.name | replace: " ","-"}}">{{speaker.title}}</a> by {{speaker.name}}</li>
-	  </ul>
-	{% endif %}
+		{% if speaker.name2 %} 
+			{% capture fullname %}{{speaker.name}} and {{speaker.name2}}{% endcapture %}
+		{% else %}
+			{% capture fullname %}{{speaker.name}}{% endcapture %}
+		{% endif %}
+		{% if speaker.name and speaker.title and speaker.abstract %}
+			<li><a href="{{ site.baseurl }}/program/conference#{{fullname | replace: " ","-"}}"><img class="thumbnail" src="{{site.baseurl}}/assets/images/conference/{{speaker.image | default:'owasp_logo.png'}}">{{fullname}}</a></li>
+		{% endif %}
 	{% endfor %}
-
+	</ul>
+	</div>
 {% endif %}
-
-{% if page.show_trainings and site.data.training[0].name %}
-<h2>Trainings on Friday 29/11/2024</h2>
+<br />
+<h2>Training day on the 29th of November (<a href="/location/">On-site only</a>)</h2>
+<p>We are proud to offer you one-day quality trainings by renowned trainers:</h3>
+{% if site.data.training[0].name %}
 	{% assign trainings = site.data.training | sort: 'time' %}
+	<div class="frontpagelist">
+	<ul>
 	{% for training in trainings %}
-	{% if training.display %}
-	  <ul>
-		<li><a href="{{ site.baseurl }}/program/training#{{training.name | replace: " ","-"}}">{{training.title}}</a> by {{training.name}}{% if training.name2 %} and {{training.name2}}{% endif %}</li>
-	  </ul>
-	{% endif %}
+		{% if training.display and training.title and training.name %}
+		<li><a href="/program/training#{{training.name | replace: " ","-"}}"><img class="thumbnail" src="{{site.baseurl}}/assets/images/training/{{training.image | default:'owasp_logo.png'}}">{{training.title}} by {{training.name}}</a></li>
+		{% endif %}
 	{% endfor %}
-	</table>
+	</ul>
+	</div>
 {% endif %}
+<br />
 
-<h2>OWASP BeNeLux conference is free, but registration is required!</h2>
-<p>To support the OWASP organisation, consider to become a member, it's only <strong>US$50!</strong> Check out the <a href="https://owasp.org/membership/">Membership</a> page to find out more.</p>
+<h2>Pricing</h2>
+<p>The conference day is completely free, but <a href="https://owasp-benelux-2024.eventbrite.com ">registration is required</a>!</p>
+<p>For the quality training, we ask for a participation of 50€ for one day!</p>
+<br />
+
+<h2>Register now!</h2>
+<p></p>You can register at <a href="https://owasp-benelux-2024.eventbrite.com ">https://owasp-benelux-2024.eventbrite.com</a></p>.
+<br />
+
+<p>To support the OWASP organisation, consider to become a member, it's only <strong>US$50!</strong></p>
+<p>Check out the <a href="https://owasp.org/membership/">Membership</a> page to find out more.</p>
 <br>
 <h2>What Happens at a OWASP BeNeLux Days Conference?</h2>
 <p>Never been to an OWASP BeNeLux Days Conference? <br>Here’s a bit of info to provide some background.</p>
