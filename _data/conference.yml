@@ -64,7 +64,7 @@
 
 - image   : spandan_chandra.jpg
   day     : 28/11/2024
-  time    : 10:15 - 11:00
+  time    : 11:30 - 12:15
   name    : Spandan Chandra
   bio     : >- 
             With over a decade of experience in cyber-security, risk management, and audits, 
@@ -109,9 +109,10 @@
   time    : 11:00 - 11:30
   title   : Break
 
-- image   : robin_van_loon.jpg
+- image   : irfaan_santoe.jpg
+  image2  : robin_van_loon.jpg
   day     : 28/11/2024
-  time    : 11:30 - 12:15
+  time    : 10:15 - 11:00
   name    : Irfaan Santoe
   name2   : Robin van Loon
   bio     : >-

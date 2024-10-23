@@ -47,7 +47,11 @@
 			{% endif %}
 		<li>
         <a name="{{fullname | replace: " ","-"}}">
-        <img style="background-image: url({{ site.baseurl }}/assets/images/conference/{{speaker.image | default:'owasp_logo.png'}});{{speaker.style}};"></a>
+        <img style="background-image: url({{ site.baseurl }}/assets/images/conference/{{speaker.image | default:'owasp_logo.png'}});{{speaker.style}};">
+		{% if speaker.image2 %}
+		<img style="background-image: url({{ site.baseurl }}/assets/images/conference/{{speaker.image2 | default:'owasp_logo.png'}});{{speaker.style}};; margin-top: 210px;">
+		{% endif %}
+		</a>
       {% if speaker.title %}
         <h2>{{speaker.title}} by {{fullname}}</h2>
       {% else %}

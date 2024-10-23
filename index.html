@@ -27,7 +27,11 @@ show_trainings: false
 			{% capture fullname %}{{speaker.name}}{% endcapture %}
 		{% endif %}
 		{% if speaker.name and speaker.title and speaker.abstract %}
-			<li><a href="{{ site.baseurl }}/program/conference#{{fullname | replace: " ","-"}}"><img class="thumbnail" src="{{site.baseurl}}/assets/images/conference/{{speaker.image | default:'owasp_logo.png'}}">{{fullname}}</a></li>
+			<li><a href="{{ site.baseurl }}/program/conference#{{fullname | replace: " ","-"}}"><img class="thumbnail" src="{{site.baseurl}}/assets/images/conference/{{speaker.image | default:'owasp_logo.png'}}">
+				{% if speaker.image2 %}
+					<img class="thumbnail" src="{{site.baseurl}}/assets/images/conference/{{speaker.image2 | default:'owasp_logo.png'}}">
+				{% endif %}
+				{{fullname}}</a></li>
 		{% endif %}
 	{% endfor %}
 	</ul>
