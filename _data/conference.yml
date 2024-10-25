@@ -62,6 +62,51 @@
   display : yes
   confirmed: yes
 
+- image   : irfaan_santoe.jpg
+  image2  : robin_van_loon.jpg
+  day     : 28/11/2024
+  time    : 10:15 - 11:00
+  name    : Irfaan Santoe
+  name2   : Robin van Loon
+  bio     : >-
+            Irfaan Santoe is a seasoned Security Leader (ex-CISO of Aegon Netherlands) and 
+            highly experienced in scaling security in AppDev, DevOps, and Cloud environments. 
+            Over the course of his career, Irfaan had the privilege of fulfilling several 
+            Senior Security Leadership roles within global enterprises and listed multinationals, 
+            helping them solve complex information security challenges. Irfaan is the OWASP 
+            Chapter Leader of The Netherlands, Founder and Project Lead of the OWASP Security 
+            Champions Guide project, and a book author on the topic of DevSecOps.</p><br />
+            <p>With 25+ years of experience in the tech industry, Robin has a solid background 
+            in software development, application and information security. Being passionate 
+            about secure software development drives him to promote security initiatives 
+            in organizations and the AppSec community. 
+  title   : How to use OWASP Security Champions Guide for your Security Champions Program
+  abstract: >-
+            As organizations scale their software development efforts, security 
+            often becomes a bottleneck in ensuring fast, reliable, and secure product 
+            releases. The OWASP Security Champions Guide, provides a robust framework 
+            for embedding security expertise within development teams, fostering a 
+            proactive security culture.</p>
+            <p>This talk will guide you through the Security Champions Manifesto and its 
+            ten principles. You will be guided through each principle as we cover the what, 
+            why and how. We will also highlight recent additions to the project and the 
+            roadmap for the next steps.</p>
+            <p>By the end of this session, you will have actionable insights into building 
+            and maintaining your own security champions program and how the OWASP Security 
+            Champions Guide can help you accelerate the implementation.
+  feed    : 
+  url     : 
+  urltag  : 
+  linkedin: https://www.linkedin.com/in/irfaansantoe/
+  linkedin2: https://www.linkedin.com/in/robin-van-loon-csslp-cissp-oswe/
+  x_handle:
+  display : yes
+  confirmed: yes
+
+- day     : 28/11/2024
+  time    : 11:00 - 11:30
+  title   : Break
+
 - image   : spandan_chandra.jpg
   day     : 28/11/2024
   time    : 11:30 - 12:15
@@ -102,59 +147,6 @@
   urltag  : 
   linkedin: https://www.linkedin.com/in/spandanchandra/
   x_handle: 
-  display : yes
-  confirmed: yes
-
-- day     : 28/11/2024
-  time    : 11:00 - 11:30
-  title   : Break
-
-- image   : irfaan_santoe.jpg
-  image2  : robin_van_loon.jpg
-  day     : 28/11/2024
-  time    : 10:15 - 11:00
-  name    : Irfaan Santoe
-  name2   : Robin van Loon
-  bio     : >-
-            Irfaan Santoe is a seasoned Security Leader (ex-CISO of Aegon Netherlands) and 
-            highly experienced in scaling security in AppDev, DevOps, and Cloud environments. 
-            Over the course of his career, Irfaan had the privilege of fulfilling several 
-            Senior Security Leadership roles within global enterprises and listed multinationals, 
-            helping them solve complex information security challenges. Irfaan is the OWASP 
-            Chapter Leader of The Netherlands, Founder and Project Lead of the OWASP Security 
-            Champions Guide project, and a book author on the topic of DevSecOps.</p><br />
-            <p>With 25+ years of experience in the tech industry, Robin has a solid background 
-            in software development, application and information security. Being passionate 
-            about secure software development drives him to promote security initiatives 
-            in organizations and the AppSecOWASP community. 
-  title   : How to use OWASP Security Champions Guide for your Security Champions Program
-  abstract: >-
-            As organizations scale their software development efforts, security 
-            often becomes a bottleneck in ensuring fast, reliable, and secure product 
-            releases. The OWASP Security Champions Guide, provides a robust framework 
-            for embedding security expertise within development teams, fostering a 
-            proactive security culture.</p>
-            <p>This talk will guide you through the Security Champions Manifesto and 
-            its ten principles.This talk will delve into the core principles of the 
-            OWASP Security Champions Guide - the Security Champions Manifesto. 
-            Key manifesto pillars such as Be Passionate about Security, Start with
-            a clear Vision for your program and Secure Management Support will be 
-            discussed. You will be guided through each principle as we cover the what, 
-            why and how.Attendees will learn about each pillar of the manifesto, 
-            what it is, why it is important, and how to go about it to establish such 
-            a pillar of your program. </p>
-            <p>Irfaan & Robin will also highlight recent additions to the project 
-            and the roadmap for the next steps.Irfaan & Robin will also share the 
-            newest features in the development of the Guide and their release dates.</p>  
-            <p>By the end of this session, you will have actionable insights into 
-            building and maintaining your own security champions programs and how 
-            the OWASP Security Champions Guide can help you accelerate the implementation.
-  feed    : 
-  url     : 
-  urltag  : 
-  linkedin: https://www.linkedin.com/in/irfaansantoe/
-  linkedin2: https://www.linkedin.com/in/robin-van-loon-csslp-cissp-oswe/
-  x_handle:
   display : yes
   confirmed: yes
 
@@ -319,11 +311,26 @@
   day     : 28/11/2024
   time    : 16:45 - 17:30
   name    : Rob van der Veer
-  bio     : coming soon...
-  title   : Closing Keynote 
-  abstract: coming soon...
-  linkedin: 
-  x_handle: 
+  bio     : >-
+            Rob van der Veer is an AI pioneer with over 32 years of experience and Senior 
+            Principal Expert at the Software Improvement Group. He is the co-editor of 
+            the AI Act security standard and the main author of ISO/IEC 5338 on the AI 
+            lifecycle. Rob also founded the OWASP AI Exchange, opening up the global 
+            conversation on AI security through open-source collaboration, for which he 
+            set up a liaison partnership between OWASP and international standardization. 
+            He proudly contributes to SAMM and co-leads OpenCRE.org, which unifies security 
+            standards into one resource.</p>
+            <p>Rob advises National Cyber Security Centers, governments, enterprises, 
+            and institutions worldwide. He has delivered over 300 speaking engagements 
+            on AI, security, privacy, and software engineering. And he still hasn't 
+            figured everything out.
+  title   : Closing Keynote > AI - the new beginning? A lighthearted talk about our end of days.
+  abstract: >-
+            Will AI replace programmers? Will it fix security issues? Will it destroy us? 
+            Will we destroy each other with it? Or is it all just a hype? What does AI 
+            mean for our security profession? Where are we with standardizing AI security?
+  linkedin: https://www.linkedin.com/in/robvanderveer
+  x_handle: https://twitter.com/robvanderveer?lang=en
   feed    : 
   url     : 
   urltag  : 
