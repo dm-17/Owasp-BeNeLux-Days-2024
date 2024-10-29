@@ -163,7 +163,7 @@
 
 - image   : martin_knobloch.png
   day     : 29/11/2024
-  time    : 09:00 - 17:00
+  time    : 09:00 - 13:00
   name    : Martin Knobloch
   bio     : >-
             Martin Knobloch, Global AppSec Strategist with Fortify, part of OpenText, 
@@ -180,15 +180,15 @@
             software development, testing and security conferences throughout the world.
   title   : Web Security 101
   abstract: >-
-            Learn the basics about web security, using OWASP tools and guides and 
-            various Kali tools.</p>
-            <p>From what is an application risk to exploiting common vulnerabilities, 
-            from scoping an assessment to writing a security report.</p>
-            <p>After this half day training, you will have learned the basics of the above.
+            Learn the basics about web security, using OWASP tools, guides and 
+            various Kali tools.<br />
+            From what is an application risk to exploiting common vulnerabilities, 
+            from scoping an assessment to writing a security report.<br /><br />
+            <div style="font-weight: bold;">Note that this is a half-day training.</div><br />
   feed    :
   url     : 
   linkedin: https://www.linkedin.com/in/martin-knobloch
   x_handle:
-  reqs    : 
+  reqs    : A laptop with admin privileges with a virtual instance or guest os running Kali Linux.
   urltag  : 
   display : yes
