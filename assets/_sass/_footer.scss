@@ -48,9 +48,11 @@ footer {
 	div.sponsor {
 		width: 300px;
 		display: inline-block;
+		vertical-align: middle;
 		img {
 			width: 300px;
 			display: block;
+			padding: 1em;
 		}
 	}
 

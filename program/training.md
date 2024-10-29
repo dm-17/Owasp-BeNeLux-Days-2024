@@ -4,7 +4,7 @@
 
 
   <h2>Trainings on 29/11/2024: Schedule</h2>
-  {% assign trainings = site.data.training | sort: 'time' %}
+  {% assign trainings = site.data.training | sort: 'name' %}
   <table>
   {% for training in trainings %}
     {% if training.display %}
@@ -65,7 +65,7 @@
 		{% if training.linkedin %}
 			<a href="{{training.linkedin}}" title="{{training.linkedin}}'s Linkedin page" target="_blank"><img class="socialnetworks" src="{{ site.baseurl }}/assets/images/conference/linkedin.png"></a>
 		{% endif %}
-    <br /><br />
+    <br /><br /><br />
   {% endif %}
       {% endif %}
 		</li>

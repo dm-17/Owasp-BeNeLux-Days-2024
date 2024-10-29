@@ -116,3 +116,79 @@
             full-featured modern browser installed (preferably Chrome).
   urltag  : 
   display : yes
+
+- image   : olle_e_johansson.jpg
+  day     : 29/11/2024
+  time    : 09:00 - 13:00
+  name    : Olle E. Johansson
+  bio     : >-
+            Olle E. Johansson is a consultant in the area of realtime communication 
+            and in embedded system security. He has been active in Open Source for 
+            many years as a developer, evangelist, trainer and speaker in many 
+            conferences worldwide. Olle is a member of the OWASP SBOM Forum and the 
+            OWASP CycloneDX industry working group. He is currently working on the 
+            CycloneDX Transparency Exchange API standard. Olle is currently a project 
+            leader for the Swedish DNS TAPIR project that is building Open Source 
+            software for analysing DNS resolver logs and finding bad actors. 
+  title   : The SBOM lifestyle - Managing your software in the light of the new regulation
+  abstract: >-
+            The Software Bill of Materials is at the heart of software quality. It's not 
+            only used for license compliance, but also vulnerability management and much 
+            more. Many international regulations now point to the SBOM as a critical piece 
+            of the puzzle. Attend this training with Olle E. Johansson, active in the CycloneDX 
+            project, to get an insight into SBOMs and how they are used in the software quality 
+            management process. Olle is an experienced teacher, storyteller and speaker at many 
+            conferences. He co-founded SBOMeurope.eu - a european forum for software transparency 
+            with SBOMs.<br /><br />
+            What you'll learn:
+            <ul>
+            <li>Introduction to the SBOM, Software bill of materials</li>
+            <li>SBOM and Open Source license compliance</li>
+            <li>CISA SBOM minimal requirements</li>
+            <li>SBOM in the Software Component Verification Standard (OWASP SCVS)</li>
+            <li>Creating the SBOM with scanners</li>
+            <li>The good, the bad and the ugly - where SBOMs fail</li>
+            <li>Vulnerability handling automation with SBOMs</li>
+            <li>SBOM and the EU Cyber Resilience Act</li>
+            <li>Open Source SBOM tools</li>
+            </ul>
+            <div style="font-weight: bold;">Note that this is a half-day training.</div><br />
+  feed    :
+  url     : 
+  linkedin: https://www.linkedin.com/in/ollejohansson/
+  x_handle:
+  reqs    : 
+  urltag  : 
+  display : yes
+
+- image   : martin_knobloch.png
+  day     : 29/11/2024
+  time    : 09:00 - 17:00
+  name    : Martin Knobloch
+  bio     : >-
+            Martin Knobloch, Global AppSec Strategist with Fortify, part of OpenText, 
+            is a long-time security leader with more than 25 years of experience in the 
+            field of IT and +15 in Cyber security.</p>
+            <p>With a background in software development and architecture, his focus 
+            is on software security. Martin is actively involved in OWASP where he is 
+            a frequent contributor to various projects and initiatives. Martin is taking 
+            part in the organizing of local and global OWASP conferences and served more 
+            than 5 years as a member of the Board of Directors, two of them as Chairmen of 
+            the board.</p>
+            <p>During his career, Martin has been a recognized teacher, guest lecturer at 
+            various universities and invited speaker and trainer at local and international 
+            software development, testing and security conferences throughout the world.
+  title   : Web Security 101
+  abstract: >-
+            Learn the basics about web security, using OWASP tools and guides and 
+            various Kali tools.</p>
+            <p>From what is an application risk to exploiting common vulnerabilities, 
+            from scoping an assessment to writing a security report.</p>
+            <p>After this half day training, you will have learned the basics of the above.
+  feed    :
+  url     : 
+  linkedin: https://www.linkedin.com/in/martin-knobloch
+  x_handle:
+  reqs    : 
+  urltag  : 
+  display : yes

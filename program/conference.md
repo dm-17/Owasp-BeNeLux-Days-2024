@@ -49,7 +49,7 @@
         <a name="{{fullname | replace: " ","-"}}">
         <img style="background-image: url({{ site.baseurl }}/assets/images/conference/{{speaker.image | default:'owasp_logo.png'}});{{speaker.style}};">
 		{% if speaker.image2 %}
-		<img style="background-image: url({{ site.baseurl }}/assets/images/conference/{{speaker.image2 | default:'owasp_logo.png'}});{{speaker.style}};; margin-top: 210px;">
+		<img style="background-image: url({{ site.baseurl }}/assets/images/conference/{{speaker.image2 | default:'owasp_logo.png'}});{{speaker.style}};; margin-top: 12em;">
 		{% endif %}
 		</a>
       {% if speaker.title %}

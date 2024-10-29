@@ -6,8 +6,8 @@
     url  : program/conference
   - title: Training
     url  : program/training
-#   - title: Social event
-#     url  : program/socialevent
+  - title: Social event
+    url  : program/socialevent
 - title: Location
   url  : location/
 - title: Sponsor
@@ -30,7 +30,7 @@
   - title: Team
     url  : about/team
   - title: Previous BeNeLux days
-    url  : about/previous-benelux-days
+    url  : https://www.owaspbenelux.eu/about/previous-benelux-days
   - title: Code of Conduct
     url  : about/code-of-conduct
   - title: Diversity Statement

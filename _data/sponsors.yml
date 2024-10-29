@@ -7,11 +7,11 @@
 #   level    : Gold
 #   style    :
 
-- image    : logo.svg
-  name     : OWASP
-  url      : https://www.owasp.org
-  level    : Gold|Silver|Bronze|Social event
-  style    :
+# - image    : logo.svg
+#   name     : OWASP
+#   url      : https://www.owasp.org
+#   level    : Gold|Silver|Bronze|Social event
+#   style    :
 
 - image    : aikidodev.svg
   name     : Aikido Dev
@@ -37,11 +37,11 @@
   level    : Gold
   style    :
 
-- image    : sig.png
+- image    : sig2.png
   name     : SIG
   url      : https://www.softwareimprovementgroup.com
   level    : Gold
-  style    :
+  style    : 
 
 - image    : vest.png
   name     : Vest
@@ -73,8 +73,20 @@
   level    : Silver
   style    :
 
-- image    : synopsys.png
+- image    : synopsys-blackduck.png
   name     : Synopsys
   url      : https://www.blackduck.com
   level    : Gold
+  style    : 
+
+- image    : semgrep.png
+  name     : Semgrep
+  url      : https://semgrep.dev
+  level    : Gold
+  style    :
+
+- image    : semgrep.png
+  name     : Semgrep
+  url      : https://semgrep.dev
+  level    : Social event
   style    :
