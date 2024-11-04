@@ -132,16 +132,19 @@
             <p>Let's dive into how AI can revolutionise the way we approach security, 
             risk, and audits, and how we, as a community, can shape the future of these 
             critical areas.
-  title   : Transforming IT Risk Management and Auditing with Gen-AI - Driving Efficiency and Insight
+  title   : Shifting Further Left - A novel way to integrate security through AI in Software design
   abstract: >-
-            In this talk, we will explore how Generative AI can be used to revolutionise 
-            IT risk management and auditing processes. From automating audit workflows 
-            and risk assessments to generating actionable insights and enhancing decision-making, 
-            AI-driven solutions are enabling (or can enable) organisations to streamline complex tasks.</p> 
-            <p>Quick glance at how Gen-AI can reduce human error, enhance compliance, 
-            and offer real-time risk mitigation in an increasingly digital landscape. 
-            We will also discuss real-world applications and future trends that are shaping 
-            the future of IT risk management and audits.
+            In recent years, DevSecOps has transformed how security integrates within the 
+            SDLC by embedding protective measures in the build and testing stages. <br />
+            Yet, there remains a critical need to introduce security even earlier in the 
+            design phase, where strategic decisions set the foundation for an application 
+            security posture.</p>
+            <p>In this talk I would like to present an innovative approach for embedding 
+            security from the very beginning of the software development lifecycle 
+            leveraging AI-driven insights to identify potential risks during design 
+            and provides actionable recommendations. As a result, development teams 
+            can reduce vulnerabilities, minimize costly fixes down the line, 
+            and build applications with robust, secure and compliant architecture from day one.
   feed    : 
   url     : 
   urltag  : 
