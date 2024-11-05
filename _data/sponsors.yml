@@ -96,3 +96,9 @@
   url      : https://www.nviso.eu
   level    : Gold
   style    :
+
+- image    : breachlock.png
+  name     : BreachLock
+  url      : https://www.breachlock.com
+  level    : Silver
+  style    :
