@@ -34,7 +34,7 @@
     <h1>When</h1>
     Thursday<br />
     28/11/24<br />
-    18h00
+    19h00
   </div>
   <div class="socialEventBox">
     <h1>Where</h1>
