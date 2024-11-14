@@ -47,7 +47,9 @@
     </div>
   </div>
   <div class="register">
-  <button class="registerButton">Register now</button>
+  <a href="https://owasp-benelux-2024.eventbrite.com/" target="_blank">
+    <button class="registerButton">Register now</button>
+  </a>
   </div>
 
   <div class="sponsor">
