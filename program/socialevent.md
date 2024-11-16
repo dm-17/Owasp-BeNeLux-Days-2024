@@ -13,7 +13,7 @@
     <h2>Main</h2>
     <ul>
     <li>Option Meat: Classic Cheeseburger</li>
-    <li>Option Vegan: Korean Kimchi Burger</li>
+    <li>Option Vegan: VegaBurger (Beyond Meat)</li>
     </ul>
     <p class="note">Both options are served with french fries and salad</p>
     <h2>Dessert</h2>
