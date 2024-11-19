@@ -102,3 +102,9 @@
   url      : https://www.breachlock.com
   level    : Silver
   style    :
+
+- image    : brucon.png
+  name     : BruCON
+  url      : https://www.brucon.org
+  level    : Gold
+  style    :
