@@ -2,6 +2,9 @@
 
 {% if site.data.training[0].name %}
 
+  <p>Lunch and coffee breaks will be provided for all trainings.</p>
+
+
 
   <h2>Trainings on 29/11/2024: Schedule</h2>
   {% assign trainings = site.data.training | sort: 'name' %}
