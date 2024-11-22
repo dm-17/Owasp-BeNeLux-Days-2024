@@ -108,3 +108,10 @@
   url      : https://www.brucon.org
   level    : Gold
   style    :
+
+  
+- image    : securecodewarrior.png
+  name     : Secure Code Warrior
+  url      : https://securecodewarrior.com
+  level    : Silver
+  style    :
