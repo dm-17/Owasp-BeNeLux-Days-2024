@@ -55,11 +55,11 @@
   level    : Gold
   style    :
 
-- image    : verimatrix.svg
-  name     : Verimatrix
-  url      : https://verimatrix.com
-  level    : Gold
-  style    :
+#- image    : verimatrix.svg
+#  name     : Verimatrix
+#  url      : https://verimatrix.com
+#  level    : Gold
+#  style    :
 
 - image    : sonatype.svg
   name     : Sonatype
