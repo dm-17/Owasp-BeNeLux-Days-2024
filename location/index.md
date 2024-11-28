@@ -19,6 +19,10 @@ The Netherlands<br />
 <div class="sponsor">
   <a href="https://www.jaarbeurs.nl/en/practical-information" target="_blank"><img src="{{ site.baseurl }}/assets/images/EN_Plattegrond_Jaarbeursgebied-ring_2023_zonderP1Hal1.png" alt="Jaarbeurs Map"  style="width: 20%;"/></a><br />
 </div>
+
+<div class="sponsor">
+<img src="{{ site.baseurl }}/assets/images/map_jaarbeurs.jpg"></img>
+</div>
 <br />
 <br />
 
