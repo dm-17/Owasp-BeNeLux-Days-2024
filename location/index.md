@@ -9,6 +9,7 @@ This Owasp BeNeLux Days Conference 2024 will be taking place at the<br />
 
 # Address
 **Jaarbeurs**<br />
+Julianazaal<br />
 Jaarbeursplein 6<br />
 3521 AL Utrecht<br />
 The Netherlands<br />
