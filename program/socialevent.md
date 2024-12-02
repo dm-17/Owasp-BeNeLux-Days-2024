@@ -21,7 +21,7 @@
     <li>Selection of the day</li>
     </ul>
     <div class="socialEventPrice">
-      <a href="https://owasp-benelux-2024.eventbrite.com/" target="_blank">
+      
         <button>
           <span id="price">15€</span>
           <br />
@@ -47,9 +47,7 @@
     </div>
   </div>
   <div class="register">
-  <a href="https://owasp-benelux-2024.eventbrite.com/" target="_blank">
-    <button class="registerButton">Register now</button>
-  </a>
+    <button class="registerButton">Register now</button> 
   </div>
 
   <div class="sponsor">
