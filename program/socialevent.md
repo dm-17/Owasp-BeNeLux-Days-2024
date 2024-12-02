@@ -27,7 +27,7 @@
           <br />
           <span id="detail">per person</span>
         </button>
-      </a>
+
     </div>
   </div>
   <div class="socialEventBox">
