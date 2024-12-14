@@ -16,9 +16,21 @@ title: Relive the conference
 		{% if speaker.name %}
       {% if speaker.feed %}
         <tr>
-        <td><a name="{{speaker.name}}"><a href="{{ site.baseurl }}/program/conference#{{speaker.name | replace: " ","-"}}">{{speaker.name}}</a>
-        <img style="background-image: url({{ site.baseurl }}/assets/images/conference/{{speaker.image | default:'owasp_logo.png'}});{{speaker.style}};"></a></td>
-        <td><a href="{{ site.baseurl }}/program/conference#{{speaker.name | replace: " ","-"}}">{{speaker.title}}</a></td>
+	  <td>
+		{% if speaker.name2 %} 
+			{% capture fullname %}{{speaker.name}} and {{speaker.name2}}{% endcapture %}
+		{% else %}
+			{% capture fullname %}{{speaker.name}}{% endcapture %}
+		{% endif %}
+		{% if speaker.name and speaker.title and speaker.abstract %}
+			<a href="{{ site.baseurl }}/program/conference#{{fullname | replace: " ","-"}}"><img class="thumbnail" src="{{site.baseurl}}/assets/images/conference/{{speaker.image | default:'owasp_logo.png'}}">
+				{% if speaker.image2 %}
+					<img class="thumbnail" src="{{site.baseurl}}/assets/images/conference/{{speaker.image2 | default:'owasp_logo.png'}}">
+				{% endif %}
+				{{fullname}}</a>
+		{% endif %}
+          </td>
+        <td><a href="{{ site.baseurl }}/program/conference#{{fullname | replace: " ","-"}}">{{speaker.title}}</a></td>
         <td><em>{{speaker.time | replace: " ", ""}}</em></td>
         <td><a href="{{speaker.feed}}"><img class="youtube" src="{{ site.baseurl }}/assets/images/conference/youtube_social_icon_red.png"></a></td>
         <td>

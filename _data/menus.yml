@@ -17,8 +17,8 @@
     url  : sponsor/
   - title: FAQ
     url  : sponsor/faq
-# - title: Relive the conference
-#   url  : program/feeds
+- title: Relive the conference
+  url  : program/feeds
 - title: Donate
   url  : donate/
 # - title: Register
